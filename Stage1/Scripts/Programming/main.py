@@ -1,47 +1,59 @@
-from faker import Faker
 import random
+import datetime
 
-fake = Faker()
+# Function to generate a random date within a specified range
+def random_date(start, end):
+    return start + datetime.timedelta(seconds=random.randint(0, int((end - start).total_seconds())))
 
-# הגדרת מספר הרשומות שצריך לייצר
+# Function to generate random string
+def random_string(length=10):
+    letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    return ''.join(random.choice(letters) for _ in range(length))
+
+# Number of records to generate
 num_records = 400
 
-# רשומות לדוגמא לטבלת Appointment
-appointments = []
-for _ in range(100000, 100000 + num_records):
-    Appointment_ID = _
-    Appointment_Date = 'TO_DATE(\'{}\', \'YYYY-MM-DD\')'.format(fake.date())
-    Reason_for_Visit = fake.sentence(nb_words=6)
-    Patient_ID = random.randint(100000, 100000 + num_records)
-    Doctor_ID = random.randint(100000, 100000 + num_records)
-    appointments.append((Appointment_ID, Appointment_Date, Reason_for_Visit, Patient_ID, Doctor_ID))
+# Start and end dates for appointments
+start_date = datetime.datetime(2022, 1, 1)
+end_date = datetime.datetime(2023, 12, 31)
 
-# רשומות לדוגמא לטבלת Billing
-billings = []
-for _ in range(100000, 100000 + num_records):
-    Billing_ID = _
-    Total_Cost = round(random.uniform(50.0, 1000.0), 2)
-    Payment_Status = random.randint(0, 1)
-    Patient_ID = random.randint(100000, 100000 + num_records)
-    Treatment_ID = random.randint(100000, 100000 + num_records)
-    billings.append((Billing_ID, Total_Cost, Payment_Status, Patient_ID, Treatment_ID))
+# File path to save the SQL script
+file_path = r'C:\Users\User\Desktop\Software Engineering\Year C\Semester B\DBProject\MiniProjectDB\Stage1\Scripts\insert_data.sql'
 
-# כתיבת הנתונים לקובץ SQL
-with open('insert_data.sql', 'w') as f:
-    f.write("BEGIN;\n")
-    
-    # הכנסת נתונים לטבלת Appointment
-    f.write("-- Inserting data into Appointment table\n")
-    for record in appointments:
+# Generating SQL insert statements
+with open(file_path, 'w') as f:
+    # Generate data for Appointment table
+    for i in range(1, num_records + 1):
+        appointment_id = i
+        appointment_date = random_date(start_date, end_date).strftime('%Y-%m-%d %H:%M:%S')
+        reason_for_visit = random_string(50)
+        patient_id = random.randint(1, num_records)
+        doctor_id = random.randint(1, num_records)
+
         f.write(f"INSERT INTO Appointment (Appointment_ID, Appointment_Date, Reason_for_Visit, Patient_ID, Doctor_ID) "
-                f"VALUES ({record[0]}, {record[1]}, '{record[2]}', {record[3]}, {record[4]});\n")
-    
-    # הכנסת נתונים לטבלת Billing
-    f.write("-- Inserting data into Billing table\n")
-    for record in billings:
-        f.write(f"INSERT INTO Billing (Billing_ID, Total_Cost, Payment_Status, Patient_ID, Treatment_ID) "
-                f"VALUES ({record[0]}, {record[1]}, {record[2]}, {record[3]}, {record[4]});\n")
-    
-    f.write("COMMIT;\n")
+                f"VALUES ({appointment_id}, '{appointment_date}', '{reason_for_visit}', {patient_id}, {doctor_id});\n")
 
-print("Data insertion script generated successfully!")
+    # Generate data for Treatment table
+    for i in range(1, num_records + 1):
+        treatment_id = i
+        treatment_cost = random.randint(50, 5000)
+        treatment_name = random_string(30)
+        treatment_description = random_string(100)
+        medical_record_id = random.randint(1, num_records)
+
+        f.write(f"INSERT INTO Treatment (Treatment_ID, Treatment_Cost, Treatment_Name, Treatment_Description, Medical_Record_ID) "
+                f"VALUES ({treatment_id}, {treatment_cost}, '{treatment_name}', '{treatment_description}', {medical_record_id});\n")
+
+    # Generate data for MedicalRecord table
+    for i in range(1, num_records + 1):
+        medical_record_id = i
+        diagnosis = random_string(50)
+        prescribed_treatments = random_string(100)
+        test_results = random_string(100)
+        allergies = random_string(50)
+        patient_id = random.randint(1, num_records)
+
+        f.write(f"INSERT INTO MedicalRecord (Medical_Record_ID, Diagnosis, Prescribed_Treatments, Test_Results, Allergies, Patient_ID) "
+                f"VALUES ({medical_record_id}, '{diagnosis}', '{prescribed_treatments}', '{test_results}', '{allergies}', {patient_id});\n")
+
+print(f"SQL script generated successfully and saved to: {file_path}")
