@@ -26,7 +26,7 @@ fake = Faker()
 # Generating SQL insert statements for Appointment table
 with open(file_paths["Appointment"], "w") as f:
     f.write("Appointment_ID,Appointment_Date,Reason_for_Visit,Patient_ID,Doctor_ID\n")
-    for i in range(1, num_records + 1):
+    for i in range(0, num_records + 1):
         appointment_id = 100000 + i
         appointment_date = f"{fake.date()}"
         reason_for_visit = random_string(50)
@@ -42,7 +42,7 @@ with open(file_paths["Appointment"], "w") as f:
 # Generating SQL insert statements for Treatment table
 with open(file_paths["Treatment"], "w") as f:
     f.write("Treatment_ID,Treatment_Cost,Treatment_Name,Treatment_Description,Medical_Record_ID\n")
-    for i in range(1, num_records + 1):
+    for i in range(0, num_records + 1):
         treatment_id = 100000 + i
         treatment_cost = random.randint(50, 5000)
         treatment_name = random_string(30)
@@ -58,7 +58,7 @@ with open(file_paths["Treatment"], "w") as f:
 # Generating SQL insert statements for MedicalRecord table
 with open(file_paths["MedicalRecord"], "w") as f:
     f.write("Medical_Record_ID,Diagnosis,Prescribed_Treatments,Test_Results,Allergies,Patient_ID\n")
-    for i in range(1, num_records + 1):
+    for i in range(0, num_records + 1):
         medical_record_id = 100000 + i
         diagnosis = random_string(50)
         prescribed_treatments = random_string(100)

@@ -1,3 +1,4 @@
+Patient_ID,Name,Date_of_Birth,Gender,Contact_Information,Insurance
 100000,Dall Eldredge,2012-05-25,Male,deldredge0@youtube.com,Yes
 100001,Tuck Bolin,1968-11-18,Male,tbolin1@reverbnation.com,Yes
 100002,Aron Farndell,1953-08-27,Female,afarndell2@imgur.com,Yes
