@@ -56,7 +56,7 @@ CREATE TABLE Treatment
 (
     Treatment_ID INT NOT NULL,
     Treatment_Cost DECIMAL(10, 2) NOT NULL,
-    Treatment_Name VARCHAR2(50) NOT NULL,
+    Treatment_Name VARCHAR2(20) NOT NULL,
     Treatment_Description VARCHAR2(255) NOT NULL,
     Medical_Record_ID INT NOT NULL,
     PRIMARY KEY (Treatment_ID),
