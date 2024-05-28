@@ -1,9 +1,5 @@
 import random
-import datetime
-
-# Function to generate a random date within a specified range
-def random_date(start, end):
-    return start + datetime.timedelta(seconds=random.randint(0, int((end - start).total_seconds())))
+from faker import Faker
 
 # Function to generate random string
 def random_string(length=10):
@@ -13,10 +9,6 @@ def random_string(length=10):
 # Number of records to generate
 num_records = 400
 
-# Start and end dates for appointments
-start_date = datetime.datetime(2022, 1, 1)
-end_date = datetime.datetime(2023, 12, 31)
-
 # File paths to save the SQL scripts
 file_paths = {
     'Appointment': r'C:\Users\User\Desktop\Software Engineering\Year C\Semester B\DBProject\MiniProjectDB\Stage1\Scripts\Appointment_insert.sql',
@@ -24,17 +16,19 @@ file_paths = {
     'MedicalRecord': r'C:\Users\User\Desktop\Software Engineering\Year C\Semester B\DBProject\MiniProjectDB\Stage1\Scripts\MedicalRecord_insert.sql'
 }
 
+fake = Faker()
+
 # Generating SQL insert statements for Appointment table
 with open(file_paths['Appointment'], 'w') as f:
     for i in range(1, num_records + 1):
         appointment_id = i
-        appointment_date = random_date(start_date, end_date).strftime('%Y-%m-%d %H:%M:%S')
+        appointment_date = f"SELECT TO_DATE('{fake.date()}', 'YYYY-MM-DD')" 
         reason_for_visit = random_string(50)
-        patient_id = random.randint(1, num_records)
-        doctor_id = random.randint(1, num_records)
+        patient_id = random.randint(100000, 100000 + num_records)
+        doctor_id = random.randint(100000, 100000 + num_records)
 
         f.write(f"INSERT INTO Appointment (Appointment_ID, Appointment_Date, Reason_for_Visit, Patient_ID, Doctor_ID) "
-                f"VALUES ({appointment_id}, '{appointment_date}', '{reason_for_visit}', {patient_id}, {doctor_id});\n")
+                f"VALUES ({appointment_id}, {appointment_date}, '{reason_for_visit}', {patient_id}, {doctor_id});\n")
 
 # Generating SQL insert statements for Treatment table
 with open(file_paths['Treatment'], 'w') as f:
