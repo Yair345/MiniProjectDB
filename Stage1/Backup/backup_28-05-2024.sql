@@ -25,33 +25,9 @@ create table DOCTORS
   contact_information   VARCHAR2(50) not null,
   date_of_start_working DATE not null,
   specialty             VARCHAR2(100) not null
-)
-tablespace SYSTEM
-  pctfree 10
-  pctused 40
-  initrans 1
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+);
 alter table DOCTORS
-  add primary key (DOCTOR_ID)
-  using index 
-  tablespace SYSTEM
-  pctfree 10
-  initrans 2
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+  add primary key (DOCTOR_ID);
 
 prompt Creating PATIENTS...
 create table PATIENTS
@@ -62,33 +38,9 @@ create table PATIENTS
   gender              VARCHAR2(10) not null,
   contact_information VARCHAR2(50) not null,
   insurance           VARCHAR2(10) not null
-)
-tablespace SYSTEM
-  pctfree 10
-  pctused 40
-  initrans 1
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+);
 alter table PATIENTS
-  add primary key (PATIENT_ID)
-  using index 
-  tablespace SYSTEM
-  pctfree 10
-  initrans 2
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+  add primary key (PATIENT_ID);
 
 prompt Creating APPOINTMENT...
 create table APPOINTMENT
@@ -98,33 +50,9 @@ create table APPOINTMENT
   reason_for_visit VARCHAR2(255) not null,
   patient_id       INTEGER not null,
   doctor_id        INTEGER not null
-)
-tablespace SYSTEM
-  pctfree 10
-  pctused 40
-  initrans 1
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+);
 alter table APPOINTMENT
-  add primary key (APPOINTMENT_ID)
-  using index 
-  tablespace SYSTEM
-  pctfree 10
-  initrans 2
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+  add primary key (APPOINTMENT_ID);
 alter table APPOINTMENT
   add foreign key (PATIENT_ID)
   references PATIENTS (PATIENT_ID) on delete cascade;
@@ -141,33 +69,9 @@ create table MEDICALRECORD
   test_results          VARCHAR2(255) not null,
   allergies             VARCHAR2(255) not null,
   patient_id            INTEGER not null
-)
-tablespace SYSTEM
-  pctfree 10
-  pctused 40
-  initrans 1
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+);
 alter table MEDICALRECORD
-  add primary key (MEDICAL_RECORD_ID)
-  using index 
-  tablespace SYSTEM
-  pctfree 10
-  initrans 2
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+  add primary key (MEDICAL_RECORD_ID);
 alter table MEDICALRECORD
   add foreign key (PATIENT_ID)
   references PATIENTS (PATIENT_ID) on delete cascade;
@@ -181,32 +85,9 @@ create table TREATMENT
   treatment_description VARCHAR2(255) not null,
   medical_record_id     INTEGER not null
 )
-tablespace SYSTEM
-  pctfree 10
-  pctused 40
-  initrans 1
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+;
 alter table TREATMENT
-  add primary key (TREATMENT_ID)
-  using index 
-  tablespace SYSTEM
-  pctfree 10
-  initrans 2
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+  add primary key (TREATMENT_ID);
 alter table TREATMENT
   add foreign key (MEDICAL_RECORD_ID)
   references MEDICALRECORD (MEDICAL_RECORD_ID) on delete cascade;
@@ -219,33 +100,9 @@ create table BILLING
   payment_status VARCHAR2(10) not null,
   patient_id     INTEGER not null,
   treatment_id   INTEGER not null
-)
-tablespace SYSTEM
-  pctfree 10
-  pctused 40
-  initrans 1
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+);
 alter table BILLING
-  add primary key (BILLING_ID)
-  using index 
-  tablespace SYSTEM
-  pctfree 10
-  initrans 2
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+  add primary key (BILLING_ID);
 alter table BILLING
   add foreign key (PATIENT_ID)
   references PATIENTS (PATIENT_ID) on delete cascade;
@@ -258,33 +115,9 @@ create table DOCPAT
 (
   patient_id INTEGER not null,
   doctor_id  INTEGER not null
-)
-tablespace SYSTEM
-  pctfree 10
-  pctused 40
-  initrans 1
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+);
 alter table DOCPAT
-  add primary key (PATIENT_ID, DOCTOR_ID)
-  using index 
-  tablespace SYSTEM
-  pctfree 10
-  initrans 2
-  maxtrans 255
-  storage
-  (
-    initial 64K
-    next 1M
-    minextents 1
-    maxextents unlimited
-  );
+  add primary key (PATIENT_ID, DOCTOR_ID);
 alter table DOCPAT
   add foreign key (PATIENT_ID)
   references PATIENTS (PATIENT_ID) on delete cascade;
