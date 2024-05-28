@@ -37,7 +37,7 @@ with open(file_paths['Treatment'], 'w') as f:
         treatment_cost = random.randint(50, 5000)
         treatment_name = random_string(30)
         treatment_description = random_string(100)
-        medical_record_id = random.randint(1, num_records)
+        medical_record_id = random.randint(100000, 100000 + num_records)
 
         f.write(f"INSERT INTO Treatment (Treatment_ID, Treatment_Cost, Treatment_Name, Treatment_Description, Medical_Record_ID) "
                 f"VALUES ({treatment_id}, {treatment_cost}, '{treatment_name}', '{treatment_description}', {medical_record_id});\n")
@@ -50,7 +50,7 @@ with open(file_paths['MedicalRecord'], 'w') as f:
         prescribed_treatments = random_string(100)
         test_results = random_string(100)
         allergies = random_string(50)
-        patient_id = random.randint(1, num_records)
+        patient_id = random.randint(100000, 100000 + num_records)
 
         f.write(f"INSERT INTO MedicalRecord (Medical_Record_ID, Diagnosis, Prescribed_Treatments, Test_Results, Allergies, Patient_ID) "
                 f"VALUES ({medical_record_id}, '{diagnosis}', '{prescribed_treatments}', '{test_results}', '{allergies}', {patient_id});\n")

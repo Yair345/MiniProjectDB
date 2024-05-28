@@ -4,7 +4,7 @@ CREATE TABLE Patients
     Name VARCHAR2(100) NOT NULL,
     Date_of_Birth DATE NOT NULL,
     Gender VARCHAR2(10) NOT NULL,
-    Contact_Information VARCHAR(20) NOT NULL,
+    Contact_Information VARCHAR(50) NOT NULL,
     Insurance VARCHAR2(10) NOT NULL,
     PRIMARY KEY (Patient_ID)
 );
@@ -13,7 +13,7 @@ CREATE TABLE Doctors
 (
     Doctor_ID INT NOT NULL,
     Name VARCHAR2(100) NOT NULL,
-    Contact_Information VARCHAR2(20) NOT NULL,
+    Contact_Information VARCHAR2(50) NOT NULL,
     Date_of_Start_working DATE NOT NULL,
     Specialty VARCHAR2(100) NOT NULL,
     PRIMARY KEY (Doctor_ID)

@@ -1,400 +1,1210 @@
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100000, 'Dex Northidge', '1986-07-09', 'dnorthidge0@latimes.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100001, 'Stevy Gerbel', '1965-07-26', 'sgerbel1@infoseek.co.jp', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100002, 'Dee dee De la Yglesia', '1991-04-08', 'ddee2@usnews.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100003, 'Hilliard McQuade', '1964-11-05', 'hmcquade3@wix.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100004, 'Karl Pegram', '1961-10-14', 'kpegram4@scientificamerican.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100005, 'Leila Dubery', '1974-02-09', 'ldubery5@guardian.co.uk', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100006, 'Tony Gerhts', '1963-07-04', 'tgerhts6@netlog.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100007, 'Arleen Figg', '1969-12-12', 'afigg7@weibo.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100008, 'Elfrieda Hatchard', '1973-11-14', 'ehatchard8@mozilla.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100009, 'Swen Mc Gee', '1960-12-15', 'smc9@e-recht24.de', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100010, 'Mara Vannuccini', '1984-05-10', 'mvannuccinia@yahoo.co.jp', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100011, 'Brittan Troker', '1992-08-28', 'btrokerb@de.vu', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100012, 'Mozelle Boyett', '1951-07-05', 'mboyettc@amazon.co.jp', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100013, 'Edi Preshous', '1988-09-18', 'epreshousd@naver.com', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100014, 'Petrina Boddie', '1988-02-27', 'pboddiee@arizona.edu', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100015, 'Cortney Rutter', '1985-04-16', 'crutterf@canalblog.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100016, 'Adel Pennrington', '1984-05-31', 'apennringtong@economist.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100017, 'Micheal Rolfe', '1957-02-11', 'mrolfeh@typepad.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100018, 'Sonya Swoffer', '1973-08-01', 'sswofferi@cnbc.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100019, 'Linell Batalle', '1990-02-08', 'lbatallej@networksolutions.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100020, 'Verile Riccardini', '1970-02-12', 'vriccardinik@china.com.cn', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100021, 'Lester Newlands', '1959-12-02', 'lnewlandsl@friendfeed.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100022, 'Jennette Murch', '1977-05-08', 'jmurchm@last.fm', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100023, 'Raff Van Hault', '1972-05-02', 'rvann@independent.co.uk', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100024, 'Joeann Comer', '1953-06-21', 'jcomero@youku.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100025, 'Clark Troak', '1991-08-28', 'ctroakp@addtoany.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100026, 'Deeann Rosenblad', '1977-03-14', 'drosenbladq@census.gov', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100027, 'Flori Blondin', '1977-11-29', 'fblondinr@alexa.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100028, 'Norean Bonicelli', '1986-02-05', 'nbonicellis@wisc.edu', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100029, 'Bernelle Blain', '1963-02-01', 'bblaint@nature.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100030, 'Carmelita Hamal', '1974-07-18', 'chamalu@uiuc.edu', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100031, 'Tadio Wenman', '1966-03-17', 'twenmanv@hud.gov', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100032, 'Alfredo Tiesman', '1956-10-07', 'atiesmanw@theglobeandmail.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100033, 'Eveline Burdikin', '1951-05-30', 'eburdikinx@behance.net', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100034, 'Gilbertine Bohler', '1957-04-12', 'gbohlery@smugmug.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100035, 'Mora Wynrehame', '1950-02-02', 'mwynrehamez@earthlink.net', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100036, 'Calley Snedker', '1981-06-23', 'csnedker10@wp.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100037, 'Meade Dyter', '1989-07-23', 'mdyter11@nps.gov', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100038, 'Ruth Lohmeyer', '1957-12-31', 'rlohmeyer12@simplemachines.org', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100039, 'Darcee Shale', '1982-07-21', 'dshale13@so-net.ne.jp', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100040, 'Berkly Careswell', '1987-06-01', 'bcareswell14@reverbnation.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100041, 'Bibbie Emptage', '1948-09-24', 'bemptage15@china.com.cn', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100042, 'Charlie Bordone', '1977-04-15', 'cbordone16@huffingtonpost.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100043, 'Nerty MacSkeaghan', '1981-10-04', 'nmacskeaghan17@imgur.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100044, 'Rossy Burnep', '1971-04-27', 'rburnep18@jiathis.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100045, 'Svend Buckthought', '1971-06-23', 'sbuckthought19@feedburner.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100046, 'Sascha Branni', '1993-02-08', 'sbranni1a@dedecms.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100047, 'Griff Gunston', '1969-11-12', 'ggunston1b@bbc.co.uk', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100048, 'Case Richichi', '1949-06-13', 'crichichi1c@psu.edu', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100049, 'Kenn Puddephatt', '1979-06-11', 'kpuddephatt1d@phpbb.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100050, 'Darcy Maymond', '1959-07-15', 'dmaymond1e@google.nl', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100051, 'Misti Gallgher', '1963-04-11', 'mgallgher1f@shareasale.com', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100052, 'Olimpia Humpherston', '1953-05-25', 'ohumpherston1g@merriam-webster.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100053, 'Sharyl Britzius', '1983-03-02', 'sbritzius1h@de.vu', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100054, 'Rosita Spalton', '1990-10-21', 'rspalton1i@newsvine.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100055, 'Jeremias Burlingame', '1983-08-29', 'jburlingame1j@abc.net.au', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100056, 'Horst Stabbins', '1959-02-06', 'hstabbins1k@mozilla.org', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100057, 'Parsifal Castagnasso', '1993-05-30', 'pcastagnasso1l@microsoft.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100058, 'Terencio Blundel', '1981-08-13', 'tblundel1m@clickbank.net', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100059, 'Ines Marrill', '1959-12-19', 'imarrill1n@si.edu', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100060, 'Lisetta Swiffen', '1991-06-22', 'lswiffen1o@behance.net', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100061, 'Kerri Birckmann', '1984-08-20', 'kbirckmann1p@ustream.tv', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100062, 'Hi Everard', '1959-01-04', 'heverard1q@51.la', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100063, 'Barbara Archibould', '1963-05-25', 'barchibould1r@weibo.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100064, 'Ethyl Worwood', '1961-09-25', 'eworwood1s@miitbeian.gov.cn', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100065, 'Stacey Howorth', '1960-10-11', 'showorth1t@tripod.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100066, 'Deirdre Bellis', '1972-04-30', 'dbellis1u@bravesites.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100067, 'Packston Darben', '1948-08-26', 'pdarben1v@house.gov', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100068, 'Trudey Loftin', '1955-09-16', 'tloftin1w@goo.ne.jp', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100069, 'Erny McCurt', '1991-05-17', 'emccurt1x@fema.gov', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100070, 'Laure Benz', '1967-08-22', 'lbenz1y@geocities.jp', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100071, 'Alwin Vitte', '1992-05-15', 'avitte1z@w3.org', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100072, 'Eberhard Noyes', '1955-01-19', 'enoyes20@youku.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100073, 'Emmalynn Winspear', '1976-02-09', 'ewinspear21@simplemachines.org', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100074, 'Jeana Stennings', '1949-08-02', 'jstennings22@bravesites.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100075, 'Norri Briton', '1949-08-21', 'nbriton23@hugedomains.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100076, 'Natka Cousens', '1950-08-01', 'ncousens24@umich.edu', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100077, 'Timmy Blundan', '1989-12-06', 'tblundan25@zimbio.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100078, 'Marcelle Donaghy', '1966-10-31', 'mdonaghy26@blogs.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100079, 'Esme Kmietsch', '1981-03-12', 'ekmietsch27@harvard.edu', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100080, 'Harriott Bartol', '1974-07-13', 'hbartol28@microsoft.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100081, 'Tamiko Fleeming', '1985-07-03', 'tfleeming29@google.es', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100082, 'Catlee Allsobrook', '1987-09-12', 'callsobrook2a@a8.net', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100083, 'Sapphira Sandwick', '1981-12-29', 'ssandwick2b@joomla.org', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100084, 'Dorice Ganders', '1958-01-25', 'dganders2c@mozilla.com', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100085, 'Isis Bischop', '1966-05-02', 'ibischop2d@mayoclinic.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100086, 'Adair Philcock', '1973-09-24', 'aphilcock2e@cam.ac.uk', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100087, 'Eddi Ingarfill', '1963-09-10', 'eingarfill2f@zimbio.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100088, 'Dill Pautot', '1956-01-11', 'dpautot2g@wsj.com', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100089, 'Tersina Robarts', '1956-10-29', 'trobarts2h@themeforest.net', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100090, 'Lorilee Petkov', '1976-10-01', 'lpetkov2i@yellowbook.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100091, 'Jerrilee Garfirth', '1974-10-28', 'jgarfirth2j@unicef.org', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100092, 'Lory Von Der Empten', '1988-02-14', 'lvon2k@wordpress.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100093, 'Charlotta Boldra', '1962-05-08', 'cboldra2l@twitter.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100094, 'Jannel Ca', '1965-02-26', 'jca2m@cargocollective.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100095, 'Tiffi Nason', '1948-11-26', 'tnason2n@guardian.co.uk', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100096, 'Frances Hrinishin', '1963-03-10', 'fhrinishin2o@4shared.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100097, 'Willie Phillipson', '1953-11-09', 'wphillipson2p@house.gov', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100098, 'Sella Rhymer', '1983-01-07', 'srhymer2q@timesonline.co.uk', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100099, 'Darren Ryde', '1989-10-30', 'dryde2r@amazon.co.jp', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100100, 'Leesa Calam', '1963-06-05', 'lcalam2s@creativecommons.org', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100101, 'Ikey Rubinsky', '1960-01-26', 'irubinsky2t@amazon.co.uk', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100102, 'Julianna Vokes', '1985-09-26', 'jvokes2u@uol.com.br', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100103, 'Sherlocke Bendig', '1974-06-27', 'sbendig2v@blogtalkradio.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100104, 'Marianna Tabert', '1963-09-04', 'mtabert2w@yahoo.co.jp', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100105, 'Tiffanie Barthrup', '1974-06-13', 'tbarthrup2x@epa.gov', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100106, 'Daryn MacDiarmond', '1963-09-08', 'dmacdiarmond2y@nationalgeographic.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100107, 'Bennie Leeb', '1981-05-30', 'bleeb2z@harvard.edu', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100108, 'Willyt Beeckx', '1953-05-08', 'wbeeckx30@weibo.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100109, 'Aland Creamer', '1969-11-04', 'acreamer31@nydailynews.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100110, 'Sinclare Adnet', '1985-12-16', 'sadnet32@scientificamerican.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100111, 'Cammie Netherclift', '1975-05-27', 'cnetherclift33@chronoengine.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100112, 'Gabbie Crommett', '1989-06-04', 'gcrommett34@51.la', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100113, 'Brien Inwood', '1987-12-22', 'binwood35@yale.edu', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100114, 'Eldon Yeabsley', '1962-03-20', 'eyeabsley36@youtube.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100115, 'Becky Raft', '1993-01-10', 'braft37@usnews.com', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100116, 'Jacquetta Mallebone', '1967-06-04', 'jmallebone38@scientificamerican.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100117, 'Joelly D''Adda', '1954-12-27', 'jdadda39@studiopress.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100118, 'Ferrel Tritten', '1986-12-16', 'ftritten3a@elpais.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100119, 'Vicky Fitzsimmons', '1972-03-29', 'vfitzsimmons3b@bizjournals.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100120, 'Hendrik Aleksandrov', '1964-05-17', 'haleksandrov3c@eventbrite.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100121, 'Justine Nowak', '1964-04-30', 'jnowak3d@foxnews.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100122, 'Creigh Tipton', '1984-06-19', 'ctipton3e@odnoklassniki.ru', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100123, 'Sheffy Ballefant', '1980-11-30', 'sballefant3f@usnews.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100124, 'Paulina Batalle', '1990-04-17', 'pbatalle3g@google.it', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100125, 'Vanya Greenwell', '1986-03-02', 'vgreenwell3h@icio.us', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100126, 'Ki Rossant', '1955-10-03', 'krossant3i@imageshack.us', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100127, 'Gus Essame', '1979-06-30', 'gessame3j@elegantthemes.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100128, 'Kenyon Linkin', '1978-03-30', 'klinkin3k@nasa.gov', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100129, 'Margarete Bolger', '1960-09-17', 'mbolger3l@hp.com', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100130, 'Ivory Lamburn', '1990-05-06', 'ilamburn3m@ask.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100131, 'Cyndia Lewing', '1953-02-16', 'clewing3n@diigo.com', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100132, 'Kerwin Bernardez', '1957-04-05', 'kbernardez3o@cbslocal.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100133, 'Quinlan Coucha', '1949-03-11', 'qcoucha3p@boston.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100134, 'Gabrila Fley', '1961-10-22', 'gfley3q@360.cn', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100135, 'Arturo Baruch', '1992-12-30', 'abaruch3r@google.com.hk', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100136, 'Fee Coase', '1988-04-26', 'fcoase3s@goodreads.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100137, 'Gennie Connock', '1982-02-19', 'gconnock3t@wisc.edu', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100138, 'Bambie Havesides', '1950-10-26', 'bhavesides3u@quantcast.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100139, 'Lethia Limeburn', '1964-04-15', 'llimeburn3v@delicious.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100140, 'Judah Paulo', '1982-09-10', 'jpaulo3w@npr.org', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100141, 'Asa Lewsey', '1966-03-10', 'alewsey3x@nydailynews.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100142, 'Marilee Iacomi', '1968-09-24', 'miacomi3y@reddit.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100143, 'Hortensia McCarl', '1979-10-26', 'hmccarl3z@kickstarter.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100144, 'Blair Blabie', '1960-11-12', 'bblabie40@instagram.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100145, 'Adolph Carhart', '1962-09-11', 'acarhart41@weather.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100146, 'Pansy Jansens', '1989-09-17', 'pjansens42@tumblr.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100147, 'Ahmed Coneybeer', '1962-02-04', 'aconeybeer43@imgur.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100148, 'Ransom Hadye', '1975-07-18', 'rhadye44@macromedia.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100149, 'Augustina Coltart', '1960-03-03', 'acoltart45@tripadvisor.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100150, 'Ursuline Juliff', '1952-10-20', 'ujuliff46@ftc.gov', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100151, 'Norbie Siemantel', '1968-05-23', 'nsiemantel47@youtube.com', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100152, 'Teri Edmonston', '1989-04-23', 'tedmonston48@mashable.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100153, 'Fifine Cullingford', '1969-11-06', 'fcullingford49@telegraph.co.uk', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100154, 'Gasper Schultze', '1962-09-08', 'gschultze4a@blogs.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100155, 'Greta Spottiswoode', '1953-10-23', 'gspottiswoode4b@cnbc.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100156, 'Randi Spracklin', '1971-05-30', 'rspracklin4c@liveinternet.ru', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100157, 'Krispin Spolton', '1990-12-20', 'kspolton4d@t.co', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100158, 'Paige Swindells', '1970-12-30', 'pswindells4e@fda.gov', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100159, 'Valina Gurton', '1981-07-21', 'vgurton4f@scribd.com', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100160, 'Raynor Domenc', '1957-12-20', 'rdomenc4g@vk.com', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100161, 'Amalie Chastel', '1982-09-05', 'achastel4h@arizona.edu', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100162, 'Linnell Favel', '1973-01-31', 'lfavel4i@smugmug.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100163, 'Stacee Canario', '1952-05-21', 'scanario4j@archive.org', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100164, 'Rebekah Ive', '1986-04-20', 'rive4k@sina.com.cn', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100165, 'Poppy Buse', '1987-08-06', 'pbuse4l@baidu.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100166, 'Gaston Trower', '1955-08-27', 'gtrower4m@amazonaws.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100167, 'Glenine Ludron', '1961-11-05', 'gludron4n@microsoft.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100168, 'Zedekiah Suttaby', '1972-07-09', 'zsuttaby4o@bloglines.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100169, 'Chandler Iacobassi', '1954-02-17', 'ciacobassi4p@ycombinator.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100170, 'Eileen Tomson', '1948-07-23', 'etomson4q@networksolutions.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100171, 'Caty Dirand', '1990-12-21', 'cdirand4r@freewebs.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100172, 'Hattie Kitchenside', '1993-10-13', 'hkitchenside4s@ow.ly', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100173, 'Ulberto Low', '1964-11-01', 'ulow4t@shareasale.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100174, 'Ewen Beyer', '1961-11-06', 'ebeyer4u@privacy.gov.au', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100175, 'Nicholas Kubal', '1963-08-14', 'nkubal4v@stanford.edu', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100176, 'Danit Karpeev', '1950-05-01', 'dkarpeev4w@hud.gov', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100177, 'Teresita Lardez', '1988-11-23', 'tlardez4x@ameblo.jp', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100178, 'Alden Wolstenholme', '1976-12-14', 'awolstenholme4y@gov.uk', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100179, 'Tiler Scullion', '1949-03-17', 'tscullion4z@bravesites.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100180, 'Kiri Bedward', '1956-01-04', 'kbedward50@hibu.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100181, 'Addison Tole', '1986-04-05', 'atole51@ucoz.ru', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100182, 'Henrieta Rivers', '1975-05-26', 'hrivers52@storify.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100183, 'Tracy Murley', '1976-10-16', 'tmurley53@washingtonpost.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100184, 'Puff Herity', '1952-11-13', 'pherity54@xrea.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100185, 'Hurlee Paxforde', '1993-10-24', 'hpaxforde55@hibu.com', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100186, 'Merrielle Curnucke', '1972-10-18', 'mcurnucke56@jiathis.com', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100187, 'Englebert Lough', '1952-08-15', 'elough57@last.fm', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100188, 'Cobbie Millar', '1984-04-30', 'cmillar58@samsung.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100189, 'Sissy McCroft', '1959-09-03', 'smccroft59@wikipedia.org', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100190, 'Cassie Keele', '1985-11-22', 'ckeele5a@qq.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100191, 'Maud Attoc', '1992-07-01', 'mattoc5b@google.co.jp', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100192, 'Aaren Swansbury', '1960-05-24', 'aswansbury5c@about.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100193, 'Cathlene Mathivet', '1979-01-07', 'cmathivet5d@list-manage.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100194, 'Devlin Gullivan', '1990-08-14', 'dgullivan5e@weibo.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100195, 'Terri Treace', '1961-10-02', 'ttreace5f@opera.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100196, 'Brittan Bellelli', '1978-07-27', 'bbellelli5g@house.gov', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100197, 'Hamid Beaconsall', '1975-05-21', 'hbeaconsall5h@trellian.com', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100198, 'Heinrik Scurman', '1979-03-07', 'hscurman5i@msn.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100199, 'Veradis Gaskoin', '1955-05-15', 'vgaskoin5j@bandcamp.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100200, 'Anne-marie Treleaven', '1993-12-27', 'atreleaven5k@seesaa.net', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100201, 'Leigha Grassett', '1949-02-19', 'lgrassett5l@rakuten.co.jp', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100202, 'Marylinda Autie', '1978-04-30', 'mautie5m@virginia.edu', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100203, 'Waiter Cargo', '1957-06-12', 'wcargo5n@reddit.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100204, 'Rodd Bousquet', '1961-04-25', 'rbousquet5o@gmpg.org', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100205, 'Ida Wanka', '1987-01-25', 'iwanka5p@nymag.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100206, 'Mela McNae', '1972-05-03', 'mmcnae5q@ebay.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100207, 'Rab Godard', '1958-01-21', 'rgodard5r@yahoo.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100208, 'Sigismundo Shaefer', '1958-08-04', 'sshaefer5s@cnn.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100209, 'Jocelin Sexcey', '1968-06-03', 'jsexcey5t@skyrock.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100210, 'Rafferty Wolfers', '1969-06-04', 'rwolfers5u@ucoz.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100211, 'Danna Lindemann', '1975-02-25', 'dlindemann5v@ocn.ne.jp', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100212, 'Gwennie Westerman', '1963-02-18', 'gwesterman5w@yellowbook.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100213, 'Khalil Cartner', '1988-12-01', 'kcartner5x@whitehouse.gov', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100214, 'Pren Dymott', '1983-10-17', 'pdymott5y@soup.io', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100215, 'Melodie Looney', '1984-08-05', 'mlooney5z@bigcartel.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100216, 'Annabel Kalinowsky', '1961-06-05', 'akalinowsky60@state.gov', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100217, 'Melina Clemenza', '1965-05-21', 'mclemenza61@sfgate.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100218, 'Nero Fearfull', '1950-09-13', 'nfearfull62@tamu.edu', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100219, 'Rich Blasi', '1949-03-14', 'rblasi63@ucoz.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100220, 'Burch Scholtis', '1974-08-24', 'bscholtis64@constantcontact.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100221, 'Rosella Mapother', '1958-07-25', 'rmapother65@barnesandnoble.com', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100222, 'Vanni Hyndson', '1980-05-03', 'vhyndson66@theatlantic.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100223, 'Urson Merchant', '1971-07-22', 'umerchant67@bbc.co.uk', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100224, 'Arny Reicherz', '1989-12-02', 'areicherz68@123-reg.co.uk', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100225, 'Nikolia Brake', '1986-07-03', 'nbrake69@vkontakte.ru', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100226, 'Giovanna Herrero', '1961-12-09', 'gherrero6a@chicagotribune.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100227, 'Jackson Keeney', '1981-12-31', 'jkeeney6b@diigo.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100228, 'Gretta Rodda', '1989-02-12', 'grodda6c@edublogs.org', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100229, 'Rebecca Alldred', '1954-10-05', 'ralldred6d@google.fr', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100230, 'Mechelle Milnthorpe', '1957-01-17', 'mmilnthorpe6e@prlog.org', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100231, 'Audre Tramel', '1953-04-26', 'atramel6f@google.ca', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100232, 'Derron Callicott', '1966-11-19', 'dcallicott6g@nhs.uk', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100233, 'Fidela Harlin', '1980-02-03', 'fharlin6h@blogtalkradio.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100234, 'Rafaello Favell', '1953-07-29', 'rfavell6i@simplemachines.org', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100235, 'Der Hyndson', '1966-03-26', 'dhyndson6j@freewebs.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100236, 'Matthieu Letham', '1950-07-01', 'mletham6k@pcworld.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100237, 'Glenn MacDonough', '1976-12-05', 'gmacdonough6l@mashable.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100238, 'Aviva Cratchley', '1968-02-04', 'acratchley6m@list-manage.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100239, 'Melanie Honig', '1971-10-30', 'mhonig6n@admin.ch', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100240, 'Lilian Wagg', '1968-05-16', 'lwagg6o@list-manage.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100241, 'Kendricks Keuning', '1968-03-18', 'kkeuning6p@godaddy.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100242, 'Aguste Woolmington', '1981-10-14', 'awoolmington6q@nhs.uk', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100243, 'Andromache Harce', '1961-09-02', 'aharce6r@cocolog-nifty.com', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100244, 'Silvester MacMurray', '1972-11-05', 'smacmurray6s@oracle.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100245, 'Vassily Sinott', '1964-09-16', 'vsinott6t@gmpg.org', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100246, 'Stacie Champley', '1986-04-29', 'schampley6u@homestead.com', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100247, 'Hamlen Mayhew', '1952-02-20', 'hmayhew6v@paginegialle.it', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100248, 'Tessa Mattocks', '1973-04-06', 'tmattocks6w@zimbio.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100249, 'Dukie Penwell', '1949-01-23', 'dpenwell6x@yahoo.co.jp', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100250, 'Hamish McGrouther', '1950-02-07', 'hmcgrouther6y@cnet.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100251, 'Milton Docker', '1951-01-06', 'mdocker6z@people.com.cn', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100252, 'Morry Judkin', '1984-10-27', 'mjudkin70@toplist.cz', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100253, 'Aloise Pratley', '1966-07-13', 'apratley71@ibm.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100254, 'Irita Abbess', '1975-01-11', 'iabbess72@state.tx.us', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100255, 'Adela Hazleton', '1986-08-25', 'ahazleton73@ucla.edu', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100256, 'Duncan Kinleyside', '1990-12-03', 'dkinleyside74@intel.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100257, 'Marla Heijne', '1992-07-05', 'mheijne75@usatoday.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100258, 'Lyman Garratt', '1991-05-04', 'lgarratt76@fotki.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100259, 'Brenn Furby', '1960-11-04', 'bfurby77@elegantthemes.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100260, 'Leland Chipps', '1968-10-01', 'lchipps78@g.co', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100261, 'Filbert Roizin', '1990-08-03', 'froizin79@histats.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100262, 'Magdalena Graver', '1956-06-19', 'mgraver7a@blog.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100263, 'Adda Eastlake', '1955-08-18', 'aeastlake7b@purevolume.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100264, 'Ware Maykin', '1953-05-24', 'wmaykin7c@salon.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100265, 'Dew Malzard', '1969-01-25', 'dmalzard7d@fda.gov', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100266, 'Micky Harmes', '1981-04-19', 'mharmes7e@hugedomains.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100267, 'Milton Yerby', '1960-09-22', 'myerby7f@ycombinator.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100268, 'Marisa Jeacock', '1949-09-30', 'mjeacock7g@epa.gov', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100269, 'Ludovika Weth', '1953-08-26', 'lweth7h@sbwire.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100270, 'Tove Gryglewski', '1952-10-31', 'tgryglewski7i@washingtonpost.com', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100271, 'Justino Quarrie', '1954-11-03', 'jquarrie7j@photobucket.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100272, 'Perle Cogger', '1962-12-05', 'pcogger7k@reverbnation.com', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100273, 'Geordie Bertelsen', '1975-12-26', 'gbertelsen7l@ox.ac.uk', 'Gastroenterology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100274, 'Art Fettis', '1951-03-10', 'afettis7m@hugedomains.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100275, 'Norry Chaddock', '1978-06-29', 'nchaddock7n@yale.edu', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100276, 'Bobinette Koppen', '1982-07-09', 'bkoppen7o@printfriendly.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100277, 'Trstram Virgin', '1967-07-25', 'tvirgin7p@techcrunch.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100278, 'Elisabet Phythian', '1975-08-09', 'ephythian7q@state.tx.us', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100279, 'Verina Goodbar', '1980-02-17', 'vgoodbar7r@marriott.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100280, 'Persis Palfree', '1971-02-06', 'ppalfree7s@joomla.org', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100281, 'Karlotte O''Donegan', '1977-01-10', 'kodonegan7t@t.co', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100282, 'Andree Crooke', '1955-09-16', 'acrooke7u@hc360.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100283, 'Danell Twidle', '1962-06-03', 'dtwidle7v@desdev.cn', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100284, 'Gwendolen Pentycross', '1973-10-09', 'gpentycross7w@twitter.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100285, 'Guy Quested', '1970-01-05', 'gquested7x@reference.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100286, 'Stanly Rehme', '1965-05-03', 'srehme7y@photobucket.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100287, 'Normy Paulillo', '1983-07-30', 'npaulillo7z@mapy.cz', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100288, 'Ardith Cornock', '1970-07-12', 'acornock80@msu.edu', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100289, 'Myrna Ballay', '1985-12-28', 'mballay81@nature.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100290, 'Lauree Le Provest', '1968-07-20', 'lle82@tinyurl.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100291, 'Barrie De Andreis', '1952-10-28', 'bde83@wiley.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100292, 'Tandy Drable', '1958-07-15', 'tdrable84@ucoz.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100293, 'Naomi Caffrey', '1983-03-05', 'ncaffrey85@home.pl', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100294, 'Joanie Crumpton', '1977-04-07', 'jcrumpton86@redcross.org', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100295, 'Arda Jickells', '1985-09-14', 'ajickells87@diigo.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100296, 'Tallulah Kaasmann', '1958-10-09', 'tkaasmann88@com.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100297, 'Penrod Vanni', '1987-03-08', 'pvanni89@hexun.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100298, 'Basia Kehir', '1969-12-18', 'bkehir8a@123-reg.co.uk', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100299, 'Amby Newgrosh', '1987-06-17', 'anewgrosh8b@vk.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100300, 'Linn Lomax', '1981-10-11', 'llomax8c@devhub.com', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100301, 'Legra Thurling', '1977-11-27', 'lthurling8d@bloglovin.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100302, 'Tabby Beckles', '1985-10-30', 'tbeckles8e@mapy.cz', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100303, 'Taffy Alcoran', '1950-04-04', 'talcoran8f@gravatar.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100304, 'Raven Eddowes', '1980-12-25', 'reddowes8g@feedburner.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100305, 'Seward Grosvenor', '1960-02-28', 'sgrosvenor8h@hhs.gov', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100306, 'Garald Oosthout de Vree', '1974-03-18', 'goosthout8i@sourceforge.net', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100307, 'Fabio Kemmis', '1974-07-05', 'fkemmis8j@irs.gov', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100308, 'Maddie Rippin', '1984-01-02', 'mrippin8k@storify.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100309, 'Delores O''Shirine', '1983-09-23', 'doshirine8l@xinhuanet.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100310, 'Letizia Tissiman', '1973-04-22', 'ltissiman8m@elegantthemes.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100311, 'Laurice Spillard', '1958-08-27', 'lspillard8n@lulu.com', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100312, 'Jeanine Noen', '1958-07-09', 'jnoen8o@uol.com.br', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100313, 'Patrizius Bateson', '1974-02-16', 'pbateson8p@cdc.gov', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100314, 'Ryan MacUchadair', '1953-03-16', 'rmacuchadair8q@vinaora.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100315, 'Nady Giovanni', '1961-08-29', 'ngiovanni8r@state.tx.us', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100316, 'Donica Asif', '1969-04-04', 'dasif8s@wired.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100317, 'Conny Hanselmann', '1981-07-21', 'chanselmann8t@netscape.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100318, 'Urson Brunton', '1958-09-21', 'ubrunton8u@theguardian.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100319, 'Timothea Wilcher', '1967-08-18', 'twilcher8v@addtoany.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100320, 'Patten Broadstock', '1949-12-24', 'pbroadstock8w@topsy.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100321, 'Ash Livesey', '1987-06-02', 'alivesey8x@xing.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100322, 'Zandra Klarzynski', '1971-03-24', 'zklarzynski8y@nifty.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100323, 'Clementius Evamy', '1952-05-30', 'cevamy8z@aboutads.info', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100324, 'Lindsey Commings', '1962-05-17', 'lcommings90@nationalgeographic.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100325, 'Gris Goode', '1989-05-15', 'ggoode91@ucla.edu', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100326, 'Walt Dalbey', '1985-10-10', 'wdalbey92@w3.org', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100327, 'Liz Essberger', '1962-02-15', 'lessberger93@hexun.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100328, 'Kelbee Foggarty', '1955-04-22', 'kfoggarty94@drupal.org', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100329, 'Dale Bonnor', '1990-11-15', 'dbonnor95@scribd.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100330, 'Paddy Barus', '1949-02-15', 'pbarus96@nature.com', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100331, 'Del Gartside', '1993-06-21', 'dgartside97@nps.gov', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100332, 'Theresita Haggerston', '1965-02-13', 'thaggerston98@virginia.edu', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100333, 'Devora Bedborough', '1958-03-03', 'dbedborough99@patch.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100334, 'Barbara Ipplett', '1978-08-27', 'bipplett9a@cpanel.net', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100335, 'Sandra Hugin', '1978-01-26', 'shugin9b@vistaprint.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100336, 'Austin Roderigo', '1994-03-08', 'aroderigo9c@baidu.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100337, 'Harwilll Laban', '1975-06-20', 'hlaban9d@sitemeter.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100338, 'Hettie Pargetter', '1975-10-21', 'hpargetter9e@mashable.com', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100339, 'Ariela Peasey', '1987-08-15', 'apeasey9f@geocities.jp', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100340, 'Catriona Whitelaw', '1981-06-07', 'cwhitelaw9g@businessinsider.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100341, 'Agnese Bowcock', '1963-11-19', 'abowcock9h@wunderground.com', 'Otorhinolaryngology (ENT)');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100342, 'Alvan Tripp', '1986-08-16', 'atripp9i@is.gd', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100343, 'Reyna Mannock', '1982-07-20', 'rmannock9j@cafepress.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100344, 'Terra Emanson', '1987-05-16', 'temanson9k@dagondesign.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100345, 'Farrah Blondel', '1973-12-23', 'fblondel9l@dailymail.co.uk', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100346, 'Myrtle Ruppert', '1952-06-05', 'mruppert9m@opensource.org', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100347, 'Zared Jolliss', '1988-11-20', 'zjolliss9n@youtu.be', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100348, 'Andras Johananoff', '1955-02-14', 'ajohananoff9o@themeforest.net', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100349, 'Hamish Widdup', '1962-06-18', 'hwiddup9p@house.gov', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100350, 'Vikky Braunter', '1955-06-10', 'vbraunter9q@jugem.jp', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100351, 'Henry Wasselin', '1973-07-30', 'hwasselin9r@mapy.cz', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100352, 'Jecho Pottell', '1964-10-30', 'jpottell9s@weibo.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100353, 'Daron Trayling', '1969-09-13', 'dtrayling9t@cyberchimps.com', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100354, 'Siana Renfrew', '1967-07-26', 'srenfrew9u@hud.gov', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100355, 'Kipp Doudny', '1990-10-08', 'kdoudny9v@vk.com', 'Ophthalmology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100356, 'Lyda Peet', '1968-07-29', 'lpeet9w@nba.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100357, 'Hersh Planks', '1966-12-15', 'hplanks9x@rediff.com', 'Psychiatry');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100358, 'Netta Mc Dermid', '1982-10-02', 'nmc9y@nsw.gov.au', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100359, 'Lorie Tisor', '1964-08-02', 'ltisor9z@businessinsider.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100360, 'Colleen Gilhool', '1955-04-21', 'cgilhoola0@squidoo.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100361, 'Barb Sharphouse', '1993-05-26', 'bsharphousea1@topsy.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100362, 'Jaynell Jeaycock', '1972-12-27', 'jjeaycocka2@studiopress.com', 'Neurosurgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100363, 'Gunilla Rowthorne', '1969-12-12', 'growthornea3@taobao.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100364, 'Letitia McGrirl', '1981-05-31', 'lmcgrirla4@cyberchimps.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100365, 'Marylynne Chazette', '1990-10-04', 'mchazettea5@wix.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100366, 'Konstance Edwin', '1967-07-06', 'kedwina6@usgs.gov', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100367, 'Glenda Wieprecht', '1991-02-09', 'gwieprechta7@pinterest.com', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100368, 'Gussie Giannotti', '1993-08-24', 'ggiannottia8@yandex.ru', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100369, 'Babbie Creser', '1957-12-28', 'bcresera9@bandcamp.com', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100370, 'Katina Dono', '1984-01-12', 'kdonoaa@wunderground.com', 'Cardiology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100371, 'Clair D''Cruze', '1973-02-21', 'cdcruzeab@digg.com', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100372, 'Theresina Lyes', '1970-09-15', 'tlyesac@sbwire.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100373, 'Constance Seaborne', '1970-10-10', 'cseabornead@go.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100374, 'Vanny Fassman', '1954-03-22', 'vfassmanae@unesco.org', 'Orthopedics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100375, 'Oneida Zanutti', '1972-06-10', 'ozanuttiaf@mail.ru', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100376, 'Valle Jakab', '1965-02-28', 'vjakabag@unicef.org', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100377, 'Amory Dosedale', '1961-12-08', 'adosedaleah@naver.com', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100378, 'Jdavie Le Pruvost', '1953-06-01', 'jleai@ifeng.com', 'Gynecology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100379, 'Bayard Thews', '1978-03-25', 'bthewsaj@plala.or.jp', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100380, 'Peta Dominichelli', '1993-11-26', 'pdominichelliak@indiatimes.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100381, 'Kandy Ferreres', '1955-09-01', 'kferreresal@scribd.com', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100382, 'Sidonia Rehn', '1990-07-17', 'srehnam@netlog.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100383, 'Eleanora Mutlow', '1957-09-07', 'emutlowan@archive.org', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100384, 'Cissiee Devin', '1976-01-09', 'cdevinao@phoca.cz', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100385, 'Marie-jeanne Walhedd', '1948-06-18', 'mwalheddap@google.com', 'Pulmonology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100386, 'Fonzie Blesing', '1976-08-23', 'fblesingaq@comcast.net', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100387, 'Jocelyn Stoffersen', '1986-11-26', 'jstoffersenar@dell.com', 'Pediatrics');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100388, 'Hayden Whitton', '1988-12-22', 'hwhittonas@whitehouse.gov', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100389, 'Goober Allwright', '1991-12-07', 'gallwrightat@examiner.com', 'Internal Medicine');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100390, 'Daniele Cammock', '1952-03-19', 'dcammockau@apple.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100391, 'Carmencita Selwyne', '1980-05-05', 'cselwyneav@fema.gov', 'Surgery');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100392, 'Hogan Barling', '1973-01-02', 'hbarlingaw@wikimedia.org', 'Endocrinology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100393, 'Jacobo Bahia', '1963-07-04', 'jbahiaax@mysql.com', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100394, 'Sapphira Oliphard', '1960-05-11', 'solipharday@tuttocitta.it', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100395, 'Beniamino Slyde', '1968-06-03', 'bslydeaz@earthlink.net', 'Oncology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100396, 'Stefa Kinavan', '1993-07-05', 'skinavanb0@plala.or.jp', 'Nephrology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100397, 'Hi Tibalt', '1955-05-07', 'htibaltb1@yellowpages.com', 'Neurology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100398, 'Stillmann Sherrington', '1950-06-16', 'ssherringtonb2@theglobeandmail.com', 'Dermatology');
-insert into Doctors (Doctor_ID, Name, Date_of_Start_working, Contact_Information, Specialty) values (100399, 'Emlen Gayton', '1977-06-26', 'egaytonb3@parallels.com', 'Surgery');
+set define off
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100000, 'Ebeneser De Domenico', 'ede0@apple.com', to_date('1967-04-12', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100001, 'Alaine Burgett', 'aburgett1@cafepress.com', to_date('1989-12-25', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100002, 'Yurik Cahillane', 'ycahillane2@foxnews.com', to_date('1983-01-16', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100003, 'Lorrayne Tregien', 'ltregien3@discuz.net', to_date('1953-06-23', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100004, 'Claudianus Kighly', 'ckighly4@4shared.com', to_date('1972-10-24', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100005, 'Benji Flood', 'bflood5@gizmodo.com', to_date('1969-09-20', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100006, 'Malina Woolveridge', 'mwoolveridge6@reddit.com', to_date('1973-03-30', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100007, 'Muhammad Dumbell', 'mdumbell7@mozilla.org', to_date('1980-04-30', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100008, 'Desirae Loughrey', 'dloughrey8@zimbio.com', to_date('1971-11-18', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100009, 'Sarge Beaulieu', 'sbeaulieu9@upenn.edu', to_date('1953-10-26', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100010, 'Taylor MacDunlevy', 'tmacdunlevya@purevolume.com', to_date('1969-06-13', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100011, 'Cathlene Sterman', 'cstermanb@hud.gov', to_date('1989-03-12', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100012, 'Efrem Bansal', 'ebansalc@pbs.org', to_date('1955-12-05', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100013, 'Delora Davenhill', 'ddavenhilld@oakley.com', to_date('1975-06-04', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100014, 'Marianna Prop', 'mprope@nhs.uk', to_date('1960-07-31', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100015, 'Alfie Ebi', 'aebif@soundcloud.com', to_date('1991-06-10', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100016, 'Hymie Blas', 'hblasg@cbslocal.com', to_date('1978-01-10', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100017, 'Benyamin Ickowicz', 'bickowiczh@rakuten.co.jp', to_date('1958-03-05', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100018, 'Thatch Gairdner', 'tgairdneri@usa.gov', to_date('1992-11-18', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100019, 'Carolin Dinkin', 'cdinkinj@imdb.com', to_date('1993-02-01', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100020, 'Chrysa Saggs', 'csaggsk@shop-pro.jp', to_date('1977-10-16', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100021, 'Zachery Groundwater', 'zgroundwaterl@linkedin.com', to_date('1958-10-24', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100022, 'Opalina Rennison', 'orennisonm@behance.net', to_date('1984-02-04', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100023, 'Joyous Marrable', 'jmarrablen@biglobe.ne.jp', to_date('1955-07-23', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100024, 'Roseline Yitzovitz', 'ryitzovitzo@tmall.com', to_date('1963-09-26', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100025, 'Bidget Ferrers', 'bferrersp@youtu.be', to_date('1992-01-25', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100026, 'Livvyy Sibary', 'lsibaryq@photobucket.com', to_date('1980-05-17', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100027, 'Lowrance Pues', 'lpuesr@pen.io', to_date('1982-06-28', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100028, 'Nickolai MacLardie', 'nmaclardies@si.edu', to_date('1983-11-13', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100029, 'Ardelle Delicate', 'adelicatet@tmall.com', to_date('1969-02-12', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100030, 'Tressa Matlock', 'tmatlocku@uiuc.edu', to_date('1948-08-27', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100031, 'Siobhan Wishkar', 'swishkarv@dagondesign.com', to_date('1952-09-13', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100032, 'Marijo Knapman', 'mknapmanw@ehow.com', to_date('1966-08-19', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100033, 'Oates Pfeffel', 'opfeffelx@cafepress.com', to_date('1991-06-19', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100034, 'Fleurette Burnhill', 'fburnhilly@cdc.gov', to_date('1968-12-14', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100035, 'Dunn McGregor', 'dmcgregorz@edublogs.org', to_date('1973-04-03', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100036, 'Babbette Beavan', 'bbeavan10@xing.com', to_date('1987-01-02', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100037, 'Maitilde Einchcombe', 'meinchcombe11@prnewswire.com', to_date('1969-06-04', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100038, 'Bernadene Skillanders', 'bskillanders12@buzzfeed.com', to_date('1975-08-22', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100039, 'Krissy Sibbons', 'ksibbons13@cafepress.com', to_date('1982-10-09', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100040, 'Olenka Raynor', 'oraynor14@foxnews.com', to_date('1958-08-23', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100041, 'Tomaso Noye', 'tnoye15@intel.com', to_date('1962-05-10', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100042, 'Klarrisa Concklin', 'kconcklin16@linkedin.com', to_date('1969-01-26', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100043, 'Jessalin Fardell', 'jfardell17@eventbrite.com', to_date('1951-08-15', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100044, 'Kendell Hencke', 'khencke18@ehow.com', to_date('1977-02-17', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100045, 'Gordan Pollendine', 'gpollendine19@dropbox.com', to_date('1972-02-26', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100046, 'Derk McLaughlin', 'dmclaughlin1a@jalbum.net', to_date('1962-06-23', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100047, 'Johann Esselin', 'jesselin1b@smugmug.com', to_date('1953-11-17', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100048, 'Raddie Hallad', 'rhallad1c@simplemachines.org', to_date('1993-07-21', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100049, 'Baxie Pocknell', 'bpocknell1d@devhub.com', to_date('1970-12-27', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100050, 'Elle Shoobridge', 'eshoobridge1e@cam.ac.uk', to_date('1979-12-28', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100051, 'Staffard Dodgson', 'sdodgson1f@smugmug.com', to_date('1987-04-13', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100052, 'Heath Swancott', 'hswancott1g@weibo.com', to_date('1962-10-26', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100053, 'Ted Hugli', 'thugli1h@cocolog-nifty.com', to_date('1977-05-04', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100054, 'Cyrus Reinmar', 'creinmar1i@topsy.com', to_date('1957-01-03', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100055, 'Tomi Strahan', 'tstrahan1j@biblegateway.com', to_date('1966-10-02', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100056, 'Barn Gurry', 'bgurry1k@lycos.com', to_date('1948-10-03', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100057, 'Lenci Sawood', 'lsawood1l@aboutads.info', to_date('1981-07-07', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100058, 'Kalie Liddiatt', 'kliddiatt1m@answers.com', to_date('1979-08-10', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100059, 'Jo Potteril', 'jpotteril1n@illinois.edu', to_date('1978-03-20', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100060, 'Mariel Chitty', 'mchitty1o@newsvine.com', to_date('1989-05-09', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100061, 'Bartholomew Featherstone', 'bfeatherstone1p@earthlink.net', to_date('1948-09-07', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100062, 'Bendick D''Agostino', 'bdagostino1q@sphinn.com', to_date('1987-09-27', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100063, 'Stanislas Shimman', 'sshimman1r@rakuten.co.jp', to_date('1949-06-27', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100064, 'Sean Boow', 'sboow1s@networksolutions.com', to_date('1959-12-28', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100065, 'Alvina Feben', 'afeben1t@google.ca', to_date('1983-05-25', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100066, 'Arlin Vakhrushev', 'avakhrushev1u@latimes.com', to_date('1979-05-15', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100067, 'Shaun Feitosa', 'sfeitosa1v@weebly.com', to_date('1976-10-23', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100068, 'Florrie Spick', 'fspick1w@walmart.com', to_date('1990-09-29', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100069, 'Else Doey', 'edoey1x@addthis.com', to_date('1973-09-14', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100070, 'Doralynn O''Kelly', 'dokelly1y@utexas.edu', to_date('1958-03-22', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100071, 'Mariejeanne Giovanizio', 'mgiovanizio1z@noaa.gov', to_date('1969-06-06', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100072, 'Deonne Maffulli', 'dmaffulli20@intel.com', to_date('1978-05-03', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100073, 'Verile Ollet', 'vollet21@msn.com', to_date('1962-07-21', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100074, 'Misty Yitzhakov', 'myitzhakov22@etsy.com', to_date('1961-05-20', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100075, 'Mae Heiden', 'mheiden23@prlog.org', to_date('1976-05-27', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100076, 'Anjanette Littleton', 'alittleton24@eepurl.com', to_date('1976-07-11', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100077, 'Jaquenetta Buckham', 'jbuckham25@uiuc.edu', to_date('1963-11-29', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100078, 'Nananne MacKerley', 'nmackerley26@amazon.co.uk', to_date('1970-11-04', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100079, 'Leontine Borley', 'lborley27@alibaba.com', to_date('1981-03-06', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100080, 'Shell Iapico', 'siapico28@surveymonkey.com', to_date('1989-05-07', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100081, 'Jenn Dresser', 'jdresser29@linkedin.com', to_date('1972-01-27', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100082, 'Benedetto Colston', 'bcolston2a@multiply.com', to_date('1988-10-08', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100083, 'Adoree Soall', 'asoall2b@issuu.com', to_date('1985-07-09', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100084, 'Mervin Wasbrough', 'mwasbrough2c@newsvine.com', to_date('1992-06-18', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100085, 'Vasily Slisby', 'vslisby2d@com.com', to_date('1958-03-27', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100086, 'Marcello Klein', 'mklein2e@cyberchimps.com', to_date('1978-01-19', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100087, 'Alfy Trask', 'atrask2f@statcounter.com', to_date('1986-09-24', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100088, 'Agretha Rivaland', 'arivaland2g@pinterest.com', to_date('1975-08-07', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100089, 'Mirna Marson', 'mmarson2h@archive.org', to_date('1988-09-28', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100090, 'Jeremiah Odam', 'jodam2i@creativecommons.org', to_date('1973-03-15', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100091, 'Jade Hinz', 'jhinz2j@constantcontact.com', to_date('1980-02-10', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100092, 'Sharai Keough', 'skeough2k@mozilla.com', to_date('1972-02-10', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100093, 'Devland Healey', 'dhealey2l@digg.com', to_date('1963-06-05', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100094, 'Iorgo McGeraghty', 'imcgeraghty2m@freewebs.com', to_date('1990-02-03', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100095, 'Karlis De Benedictis', 'kde2n@ehow.com', to_date('1948-07-18', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100096, 'Eve Latan', 'elatan2o@bloglines.com', to_date('1992-03-28', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100097, 'Editha Borel', 'eborel2p@sitemeter.com', to_date('1971-09-17', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100098, 'Rem Ziehms', 'rziehms2q@vkontakte.ru', to_date('1973-10-17', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100099, 'Robinson Gabbett', 'rgabbett2r@blogs.com', to_date('1970-12-16', 'YYYY-MM-DD'), 'Pulmonology');
+
+commit;
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100100, 'Stace Andryushchenko', 'sandryushchenko2s@rediff.com', to_date('1974-12-08', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100101, 'Ruth Makey', 'rmakey2t@examiner.com', to_date('1960-11-05', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100102, 'Frederica Lorking', 'florking2u@cdc.gov', to_date('1953-03-16', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100103, 'Gayla Purcer', 'gpurcer2v@sakura.ne.jp', to_date('1969-12-17', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100104, 'Christos Rushmere', 'crushmere2w@cargocollective.com', to_date('1979-10-12', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100105, 'Boone Winn', 'bwinn2x@tiny.cc', to_date('1950-04-16', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100106, 'Malorie Chasmer', 'mchasmer2y@ft.com', to_date('1952-03-27', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100107, 'Ruperta Craney', 'rcraney2z@cbsnews.com', to_date('1986-08-02', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100108, 'Matthaeus Vogeler', 'mvogeler30@nifty.com', to_date('1983-01-03', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100109, 'Andras Josofovitz', 'ajosofovitz31@pen.io', to_date('1989-04-02', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100110, 'Ichabod Dovidian', 'idovidian32@ft.com', to_date('1961-05-22', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100111, 'Jammal Tommaseo', 'jtommaseo33@house.gov', to_date('1951-05-19', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100112, 'Briny Antushev', 'bantushev34@imgur.com', to_date('1955-09-30', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100113, 'Stefan Hazael', 'shazael35@time.com', to_date('1974-11-20', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100114, 'Nick Adrain', 'nadrain36@vimeo.com', to_date('1948-08-23', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100115, 'Aubine Cattow', 'acattow37@nhs.uk', to_date('1954-05-23', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100116, 'Aaron Eisikovitsh', 'aeisikovitsh38@yahoo.co.jp', to_date('1957-06-02', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100117, 'Nita Colley', 'ncolley39@ning.com', to_date('1984-05-14', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100118, 'Blanche Bullant', 'bbullant3a@guardian.co.uk', to_date('1992-04-19', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100119, 'Twyla Badham', 'tbadham3b@vistaprint.com', to_date('1965-10-03', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100120, 'Randene Stair', 'rstair3c@feedburner.com', to_date('1961-12-19', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100121, 'Lydia Canton', 'lcanton3d@wix.com', to_date('1962-07-14', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100122, 'Timmy Sansum', 'tsansum3e@opera.com', to_date('1991-03-24', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100123, 'Elysia Pollicatt', 'epollicatt3f@weibo.com', to_date('1961-07-17', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100124, 'Lee De Giorgi', 'lde3g@ustream.tv', to_date('1978-01-19', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100125, 'Angelo Goude', 'agoude3h@artisteer.com', to_date('1974-06-24', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100126, 'Myles Lumbly', 'mlumbly3i@linkedin.com', to_date('1975-01-20', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100127, 'Lissi Sketcher', 'lsketcher3j@theglobeandmail.com', to_date('1987-05-14', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100128, 'Karla Aukland', 'kaukland3k@ox.ac.uk', to_date('1955-05-22', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100129, 'Elliott Rennebeck', 'erennebeck3l@nytimes.com', to_date('1985-12-17', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100130, 'Robena Colliard', 'rcolliard3m@alexa.com', to_date('1966-03-05', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100131, 'Trenna Lorryman', 'tlorryman3n@cnet.com', to_date('1963-03-09', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100132, 'Shannan Bodker', 'sbodker3o@blogs.com', to_date('1988-02-28', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100133, 'Charin Allmark', 'callmark3p@istockphoto.com', to_date('1993-09-09', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100134, 'Patsy Shaudfurth', 'pshaudfurth3q@fema.gov', to_date('1955-10-02', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100135, 'Moe Wall', 'mwall3r@psu.edu', to_date('1963-04-07', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100136, 'Jeremias Swatman', 'jswatman3s@epa.gov', to_date('1990-11-01', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100137, 'Gaynor Walklate', 'gwalklate3t@huffingtonpost.com', to_date('1964-08-21', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100138, 'Florina Shingler', 'fshingler3u@woothemes.com', to_date('1989-12-18', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100139, 'Mario Normaville', 'mnormaville3v@smugmug.com', to_date('1969-03-15', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100140, 'Caroljean Eller', 'celler3w@time.com', to_date('1949-03-03', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100141, 'Nappie Moodycliffe', 'nmoodycliffe3x@exblog.jp', to_date('1959-10-21', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100142, 'Yoko Harflete', 'yharflete3y@mediafire.com', to_date('1985-09-19', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100143, 'Lacie Angelo', 'langelo3z@oakley.com', to_date('1948-12-27', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100144, 'Libbi Woodhead', 'lwoodhead40@mapy.cz', to_date('1992-04-11', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100145, 'Almire Kealy', 'akealy41@msn.com', to_date('1948-09-02', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100146, 'Jodee Palmar', 'jpalmar42@archive.org', to_date('1972-04-04', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100147, 'Fremont Jent', 'fjent43@networkadvertising.org', to_date('1983-03-19', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100148, 'Filmer Cartmail', 'fcartmail44@geocities.com', to_date('1979-08-09', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100149, 'Warner Yeowell', 'wyeowell45@google.com.hk', to_date('1984-08-26', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100150, 'Sophronia Perrone', 'sperrone46@chron.com', to_date('1974-07-15', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100151, 'Mateo Oloman', 'moloman47@hugedomains.com', to_date('1984-11-08', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100152, 'Ciel Root', 'croot48@booking.com', to_date('1971-06-15', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100153, 'Daniele Raynes', 'draynes49@furl.net', to_date('1970-06-18', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100154, 'Haroun Sango', 'hsango4a@theatlantic.com', to_date('1981-02-04', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100155, 'Cyrille Carp', 'ccarp4b@cocolog-nifty.com', to_date('1985-01-21', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100156, 'Yulma Cruft', 'ycruft4c@zimbio.com', to_date('1970-05-27', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100157, 'Cosmo Verey', 'cverey4d@about.me', to_date('1988-04-20', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100158, 'Ilse Kennewell', 'ikennewell4e@de.vu', to_date('1965-02-25', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100159, 'Rik Peakman', 'rpeakman4f@hhs.gov', to_date('1976-07-05', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100160, 'Davie Norcliffe', 'dnorcliffe4g@weibo.com', to_date('1986-05-22', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100161, 'Deeyn Liger', 'dliger4h@mysql.com', to_date('1986-07-04', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100162, 'Danni Creane', 'dcreane4i@bravesites.com', to_date('1968-04-06', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100163, 'Miran Cordall', 'mcordall4j@lycos.com', to_date('1963-09-25', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100164, 'Christy Rew', 'crew4k@xing.com', to_date('1954-06-21', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100165, 'Coralie Haycox', 'chaycox4l@who.int', to_date('1961-09-19', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100166, 'Locke Shipsey', 'lshipsey4m@smugmug.com', to_date('1989-07-04', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100167, 'Loree Merryfield', 'lmerryfield4n@technorati.com', to_date('1949-10-01', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100168, 'Maison Bickersteth', 'mbickersteth4o@shinystat.com', to_date('1962-05-18', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100169, 'Morris Bayliss', 'mbayliss4p@seattletimes.com', to_date('1969-01-16', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100170, 'Fritz Kelcey', 'fkelcey4q@facebook.com', to_date('1973-02-14', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100171, 'Antonietta Slixby', 'aslixby4r@topsy.com', to_date('1959-01-17', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100172, 'Parry Harlock', 'pharlock4s@census.gov', to_date('1958-08-01', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100173, 'Win Climance', 'wclimance4t@wp.com', to_date('1966-12-16', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100174, 'Kial Sansam', 'ksansam4u@nymag.com', to_date('1979-07-29', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100175, 'Augie Palumbo', 'apalumbo4v@odnoklassniki.ru', to_date('1987-02-02', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100176, 'Maddi Wickstead', 'mwickstead4w@webs.com', to_date('1989-10-01', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100177, 'Zorina Whiscard', 'zwhiscard4x@nydailynews.com', to_date('1964-06-12', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100178, 'Kynthia Corwin', 'kcorwin4y@businessinsider.com', to_date('1964-05-29', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100179, 'Gilbertine Braywood', 'gbraywood4z@reference.com', to_date('1958-04-10', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100180, 'Carline Perrot', 'cperrot50@paginegialle.it', to_date('1974-10-14', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100181, 'Ursa Loughman', 'uloughman51@cdc.gov', to_date('1963-05-06', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100182, 'Killy Coppock.', 'kcoppock52@taobao.com', to_date('1955-10-14', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100183, 'Blakelee Thompstone', 'bthompstone53@redcross.org', to_date('1977-06-27', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100184, 'Meara Austin', 'maustin54@shop-pro.jp', to_date('1958-10-31', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100185, 'Maryellen Castlake', 'mcastlake55@amazonaws.com', to_date('1948-12-25', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100186, 'Stephenie Callender', 'scallender56@hexun.com', to_date('1958-07-10', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100187, 'Charo Devonish', 'cdevonish57@cdc.gov', to_date('1976-09-29', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100188, 'Ludovico Grandham', 'lgrandham58@berkeley.edu', to_date('1975-11-08', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100189, 'Rem Woodrooffe', 'rwoodrooffe59@cdbaby.com', to_date('1948-09-08', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100190, 'Brandea Sayburn', 'bsayburn5a@ehow.com', to_date('1965-01-13', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100191, 'Barny Durnin', 'bdurnin5b@dot.gov', to_date('1979-02-21', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100192, 'Sonnnie McGrirl', 'smcgrirl5c@bizjournals.com', to_date('1985-01-30', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100193, 'Laura Janaud', 'ljanaud5d@msu.edu', to_date('1981-09-13', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100194, 'Koral Walenta', 'kwalenta5e@a8.net', to_date('1976-11-30', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100195, 'Cirilo Hanmer', 'chanmer5f@github.com', to_date('1959-05-03', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100196, 'Tate Biermatowicz', 'tbiermatowicz5g@virginia.edu', to_date('1990-08-09', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100197, 'Konstantine Inglis', 'kinglis5h@facebook.com', to_date('1959-11-06', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100198, 'Padraic Playden', 'pplayden5i@ebay.co.uk', to_date('1982-06-07', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100199, 'Rena Stratford', 'rstratford5j@pbs.org', to_date('1984-12-18', 'YYYY-MM-DD'), 'Nephrology');
+
+commit;
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100200, 'Sayre Pimlock', 'spimlock5k@sourceforge.net', to_date('1990-09-17', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100201, 'Ulrika Retallick', 'uretallick5l@apple.com', to_date('1980-08-30', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100202, 'Onida Harkess', 'oharkess5m@canalblog.com', to_date('1966-09-05', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100203, 'Raymund Siege', 'rsiege5n@abc.net.au', to_date('1991-10-17', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100204, 'Lilia Bartolomeo', 'lbartolomeo5o@nsw.gov.au', to_date('1956-11-24', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100205, 'Rafferty Alejandri', 'ralejandri5p@drupal.org', to_date('1969-10-12', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100206, 'Fiorenze Skinley', 'fskinley5q@wordpress.org', to_date('1982-07-21', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100207, 'Steffi Culy', 'sculy5r@geocities.com', to_date('1948-10-27', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100208, 'Rock Ygo', 'rygo5s@mail.ru', to_date('1984-09-17', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100209, 'Mordy Mushawe', 'mmushawe5t@oracle.com', to_date('1959-10-09', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100210, 'Codie Bootherstone', 'cbootherstone5u@multiply.com', to_date('1970-08-11', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100211, 'Felike Cuttings', 'fcuttings5v@nature.com', to_date('1951-08-18', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100212, 'Eduardo Sprulls', 'esprulls5w@simplemachines.org', to_date('1976-05-07', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100213, 'Wally Marxsen', 'wmarxsen5x@woothemes.com', to_date('1959-05-05', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100214, 'Alyson Beard', 'abeard5y@cdc.gov', to_date('1978-10-07', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100215, 'Brynne Tomasik', 'btomasik5z@51.la', to_date('1975-02-08', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100216, 'Somerset Geer', 'sgeer60@nifty.com', to_date('1953-03-08', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100217, 'Stefania Dayley', 'sdayley61@jigsy.com', to_date('1950-11-19', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100218, 'Ryon Skoate', 'rskoate62@discovery.com', to_date('1993-10-16', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100219, 'Gerome Drohun', 'gdrohun63@umn.edu', to_date('1986-05-15', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100220, 'Elisabeth Goatman', 'egoatman64@desdev.cn', to_date('1990-10-15', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100221, 'Faythe Snalum', 'fsnalum65@cargocollective.com', to_date('1979-01-21', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100222, 'Siobhan Loudwell', 'sloudwell66@jiathis.com', to_date('1966-01-10', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100223, 'Kory Plaister', 'kplaister67@squarespace.com', to_date('1955-08-26', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100224, 'Shannen Lombard', 'slombard68@baidu.com', to_date('1969-10-21', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100225, 'Olia Gales', 'ogales69@sourceforge.net', to_date('1987-04-09', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100226, 'Melvin Jull', 'mjull6a@naver.com', to_date('1978-10-28', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100227, 'Virgilio MacCarroll', 'vmaccarroll6b@booking.com', to_date('1967-09-29', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100228, 'Karola Blaisdell', 'kblaisdell6c@nbcnews.com', to_date('1987-10-07', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100229, 'Ines Clewes', 'iclewes6d@ed.gov', to_date('1952-10-05', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100230, 'Harriet Cliff', 'hcliff6e@slideshare.net', to_date('1978-05-08', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100231, 'Maurice Albone', 'malbone6f@bloglines.com', to_date('1991-12-13', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100232, 'Ida Cushion', 'icushion6g@etsy.com', to_date('1955-09-27', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100233, 'Ive Sorrill', 'isorrill6h@yale.edu', to_date('1966-10-18', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100234, 'Minna Ricarde', 'mricarde6i@gmpg.org', to_date('1957-10-20', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100235, 'Jonah Jallin', 'jjallin6j@java.com', to_date('1948-07-05', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100236, 'Corrie Raybould', 'craybould6k@sohu.com', to_date('1962-11-08', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100237, 'Vale Orrocks', 'vorrocks6l@reverbnation.com', to_date('1993-11-08', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100238, 'Celie Vipan', 'cvipan6m@slate.com', to_date('1975-03-01', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100239, 'Levi Allbones', 'lallbones6n@sphinn.com', to_date('1960-02-19', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100240, 'Shannon Kilgrove', 'skilgrove6o@elegantthemes.com', to_date('1966-01-09', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100241, 'Gal Letch', 'gletch6p@nifty.com', to_date('1970-09-18', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100242, 'Sidnee Norquoy', 'snorquoy6q@geocities.com', to_date('1967-10-17', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100243, 'Ferris Ulyet', 'fulyet6r@tuttocitta.it', to_date('1986-11-13', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100244, 'Ruddie Braim', 'rbraim6s@wiley.com', to_date('1954-08-13', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100245, 'Garland Hamber', 'ghamber6t@globo.com', to_date('1968-09-13', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100246, 'Roseline Stode', 'rstode6u@exblog.jp', to_date('1975-08-07', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100247, 'Cecilio Liepins', 'cliepins6v@vinaora.com', to_date('1956-09-22', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100248, 'Shermy Greep', 'sgreep6w@reddit.com', to_date('1984-10-07', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100249, 'Blanca Glamart', 'bglamart6x@wix.com', to_date('1961-12-22', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100250, 'Zara Grewes', 'zgrewes6y@wikispaces.com', to_date('1948-06-02', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100251, 'Imojean Keyworth', 'ikeyworth6z@cdbaby.com', to_date('1972-11-30', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100252, 'Janenna Goodredge', 'jgoodredge70@w3.org', to_date('1969-09-23', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100253, 'Desmond Conrard', 'dconrard71@cdc.gov', to_date('1967-10-09', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100254, 'Petronia Caulcott', 'pcaulcott72@mapy.cz', to_date('1957-05-12', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100255, 'Moria Kolak', 'mkolak73@msn.com', to_date('1984-09-09', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100256, 'Stephie Skea', 'sskea74@unc.edu', to_date('1964-03-18', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100257, 'Fons Coxon', 'fcoxon75@ocn.ne.jp', to_date('1950-02-26', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100258, 'Rab Barkly', 'rbarkly76@geocities.com', to_date('1968-03-23', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100259, 'Eugen Harnott', 'eharnott77@biglobe.ne.jp', to_date('1970-01-30', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100260, 'Merrill Bloomer', 'mbloomer78@sohu.com', to_date('1960-06-30', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100261, 'Boycie O''Keeffe', 'bokeeffe79@va.gov', to_date('1952-01-29', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100262, 'Debby Chalke', 'dchalke7a@stumbleupon.com', to_date('1984-06-29', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100263, 'Ange Westrey', 'awestrey7b@eventbrite.com', to_date('1951-12-10', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100264, 'Antone Legrave', 'alegrave7c@google.ca', to_date('1960-03-05', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100265, 'Crista Gianotti', 'cgianotti7d@studiopress.com', to_date('1988-02-29', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100266, 'Dorise Smithend', 'dsmithend7e@51.la', to_date('1969-01-11', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100267, 'Anissa Fevier', 'afevier7f@epa.gov', to_date('1952-05-03', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100268, 'Marcello Denidge', 'mdenidge7g@mapy.cz', to_date('1973-03-24', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100269, 'Reinhard Malsher', 'rmalsher7h@ca.gov', to_date('1955-05-07', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100270, 'Idalia Stanbridge', 'istanbridge7i@ihg.com', to_date('1955-12-25', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100271, 'Andie Ringsell', 'aringsell7j@jimdo.com', to_date('1987-03-04', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100272, 'Shalom Farron', 'sfarron7k@admin.ch', to_date('1950-09-17', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100273, 'Miltie Cridge', 'mcridge7l@wired.com', to_date('1973-11-16', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100274, 'Broderick Barnsley', 'bbarnsley7m@bbb.org', to_date('1956-08-03', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100275, 'Louisa Matlock', 'lmatlock7n@nifty.com', to_date('1961-03-24', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100276, 'Winnie MacFadyen', 'wmacfadyen7o@comcast.net', to_date('1979-11-23', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100277, 'Ryan Sapauton', 'rsapauton7p@webmd.com', to_date('1958-09-13', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100278, 'Isa Tire', 'itire7q@github.io', to_date('1948-10-17', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100279, 'Ivor Lakeman', 'ilakeman7r@google.pl', to_date('1960-11-02', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100280, 'Hollie Campione', 'hcampione7s@newsvine.com', to_date('1958-12-25', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100281, 'Alaine Ditter', 'aditter7t@va.gov', to_date('1970-02-08', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100282, 'Elysia Owttrim', 'eowttrim7u@booking.com', to_date('1968-09-10', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100283, 'Maura Gianetti', 'mgianetti7v@rediff.com', to_date('1973-10-03', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100284, 'Erwin Garrand', 'egarrand7w@nytimes.com', to_date('1986-10-12', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100285, 'Cammie Wyrill', 'cwyrill7x@redcross.org', to_date('1961-01-19', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100286, 'Boot Kimbury', 'bkimbury7y@uiuc.edu', to_date('1953-08-24', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100287, 'Priscella Gillingham', 'pgillingham7z@edublogs.org', to_date('1955-04-30', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100288, 'Ransom Glaisner', 'rglaisner80@pen.io', to_date('1988-08-25', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100289, 'Devondra D''Costa', 'ddcosta81@globo.com', to_date('1981-09-09', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100290, 'Denys Chalder', 'dchalder82@wiley.com', to_date('1973-06-13', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100291, 'Marta Cressar', 'mcressar83@imdb.com', to_date('1970-03-30', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100292, 'Alyson Dradey', 'adradey84@behance.net', to_date('1948-11-27', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100293, 'Robby Giorgielli', 'rgiorgielli85@arizona.edu', to_date('1972-12-29', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100294, 'Roseline Doak', 'rdoak86@unc.edu', to_date('1957-10-03', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100295, 'Naomi Winram', 'nwinram87@who.int', to_date('1981-10-08', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100296, 'Nina de Wilde', 'nde88@free.fr', to_date('1963-05-16', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100297, 'Elysia Triplet', 'etriplet89@eepurl.com', to_date('1965-01-17', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100298, 'Stephen Sedwick', 'ssedwick8a@weather.com', to_date('1981-08-08', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100299, 'Joane Isakovitch', 'jisakovitch8b@unicef.org', to_date('1956-10-11', 'YYYY-MM-DD'), 'Pediatrics');
+
+commit;
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100300, 'Angela Leahey', 'aleahey8c@ameblo.jp', to_date('1988-04-19', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100301, 'Fallon Setterington', 'fsetterington8d@flickr.com', to_date('1962-06-08', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100302, 'Vale Raeside', 'vraeside8e@wired.com', to_date('1961-12-08', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100303, 'Floris Crinkley', 'fcrinkley8f@gnu.org', to_date('1958-06-03', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100304, 'Alair Gilderoy', 'agilderoy8g@constantcontact.com', to_date('1985-02-24', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100305, 'Boniface M''Chirrie', 'bmchirrie8h@sbwire.com', to_date('1960-01-20', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100306, 'Ruby Cranney', 'rcranney8i@admin.ch', to_date('1951-07-30', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100307, 'Thibaud Haycock', 'thaycock8j@qq.com', to_date('1951-09-27', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100308, 'Vivyanne Spohrmann', 'vspohrmann8k@clickbank.net', to_date('1981-07-02', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100309, 'Evelin Vasishchev', 'evasishchev8l@edublogs.org', to_date('1978-04-22', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100310, 'Bendix Chittie', 'bchittie8m@stanford.edu', to_date('1956-01-28', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100311, 'Zita McInerney', 'zmcinerney8n@va.gov', to_date('1985-04-09', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100312, 'Duncan Leger', 'dleger8o@cafepress.com', to_date('1970-02-16', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100313, 'Bealle Stock', 'bstock8p@usa.gov', to_date('1950-07-06', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100314, 'Hurleigh Foucar', 'hfoucar8q@flavors.me', to_date('1974-04-02', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100315, 'Julia Crockford', 'jcrockford8r@google.it', to_date('1971-05-19', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100316, 'Boot Bragger', 'bbragger8s@alexa.com', to_date('1952-02-12', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100317, 'Nertie Wigan', 'nwigan8t@fc2.com', to_date('1954-08-08', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100318, 'Rourke Stinson', 'rstinson8u@posterous.com', to_date('1991-10-13', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100319, 'Elvina Flips', 'eflips8v@paginegialle.it', to_date('1971-12-01', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100320, 'Winne Williamson', 'wwilliamson8w@issuu.com', to_date('1948-08-26', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100321, 'Neely Goldspink', 'ngoldspink8x@skype.com', to_date('1983-10-05', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100322, 'Shandra Bibey', 'sbibey8y@addtoany.com', to_date('1954-10-07', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100323, 'Delcina Rucklidge', 'drucklidge8z@jalbum.net', to_date('1977-08-27', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100324, 'Igor Cortese', 'icortese90@cocolog-nifty.com', to_date('1959-02-16', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100325, 'Wilhelmine Deverill', 'wdeverill91@accuweather.com', to_date('1964-08-07', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100326, 'Alexio Spaunton', 'aspaunton92@usnews.com', to_date('1948-12-02', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100327, 'Maighdiln McClinton', 'mmcclinton93@tinyurl.com', to_date('1952-07-11', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100328, 'Matthieu MacDaid', 'mmacdaid94@cdc.gov', to_date('1984-03-09', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100329, 'Violetta Danielsson', 'vdanielsson95@jalbum.net', to_date('1982-05-25', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100330, 'Erastus Jordeson', 'ejordeson96@dion.ne.jp', to_date('1988-11-22', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100331, 'Dennison Sharville', 'dsharville97@marketwatch.com', to_date('1984-10-16', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100332, 'Betsey Cater', 'bcater98@trellian.com', to_date('1983-07-28', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100333, 'Marchall Eidelman', 'meidelman99@dailymail.co.uk', to_date('1952-07-01', 'YYYY-MM-DD'), 'Oncology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100334, 'Thain Atwel', 'tatwel9a@twitter.com', to_date('1979-10-13', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100335, 'Willard Delouch', 'wdelouch9b@amazon.com', to_date('1964-11-24', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100336, 'Claudine Tedman', 'ctedman9c@rakuten.co.jp', to_date('1954-11-19', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100337, 'Yasmeen Fauguel', 'yfauguel9d@theguardian.com', to_date('1949-10-23', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100338, 'Ethel Mangenet', 'emangenet9e@soundcloud.com', to_date('1975-07-03', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100339, 'Charlie Giacomucci', 'cgiacomucci9f@spotify.com', to_date('1976-10-15', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100340, 'Alaster Rosenwald', 'arosenwald9g@slideshare.net', to_date('1987-11-02', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100341, 'Kessiah De Maine', 'kde9h@thetimes.co.uk', to_date('1980-08-11', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100342, 'Lari Heiden', 'lheiden9i@bravesites.com', to_date('1971-03-19', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100343, 'Consalve Whitehair', 'cwhitehair9j@twitter.com', to_date('1950-11-04', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100344, 'Morgan Jurczyk', 'mjurczyk9k@pagesperso-orange.fr', to_date('1976-02-16', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100345, 'Mirabelle Smalles', 'msmalles9l@netscape.com', to_date('1986-06-19', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100346, 'Etti Rait', 'erait9m@linkedin.com', to_date('1990-05-19', 'YYYY-MM-DD'), 'Gastroenterology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100347, 'Carol-jean Fairbrass', 'cfairbrass9n@scribd.com', to_date('1973-03-01', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100348, 'Gibb Titterrell', 'gtitterrell9o@google.ru', to_date('1949-10-18', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100349, 'Sutherland Haxell', 'shaxell9p@photobucket.com', to_date('1976-08-10', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100350, 'Pen Lyst', 'plyst9q@fastcompany.com', to_date('1968-05-24', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100351, 'Loella Lowin', 'llowin9r@1und1.de', to_date('1981-12-02', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100352, 'Niki Sawdy', 'nsawdy9s@dell.com', to_date('1965-01-06', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100353, 'Hortense Keson', 'hkeson9t@de.vu', to_date('1972-10-21', 'YYYY-MM-DD'), 'Neurology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100354, 'Gauthier Shannon', 'gshannon9u@aboutads.info', to_date('1985-11-09', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100355, 'Pauline Keggins', 'pkeggins9v@hao123.com', to_date('1963-04-21', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100356, 'Torry Yitzhakof', 'tyitzhakof9w@oracle.com', to_date('1950-02-07', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100357, 'Brittany McKnish', 'bmcknish9x@bluehost.com', to_date('1952-08-27', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100358, 'Xenos Copins', 'xcopins9y@bloomberg.com', to_date('1961-07-12', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100359, 'Ted Shuttlewood', 'tshuttlewood9z@adobe.com', to_date('1971-02-17', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100360, 'Lib Parish', 'lparisha0@ca.gov', to_date('1989-06-27', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100361, 'Roobbie Agirre', 'ragirrea1@netscape.com', to_date('1971-08-09', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100362, 'Seymour Courtman', 'scourtmana2@time.com', to_date('1991-05-16', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100363, 'Eliza Giovannardi', 'egiovannardia3@europa.eu', to_date('1993-01-27', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100364, 'Eugenius Zannelli', 'ezannellia4@soundcloud.com', to_date('1976-06-07', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100365, 'Sibylla Clurow', 'sclurowa5@google.co.uk', to_date('1974-02-18', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100366, 'Astrid O''Halloran', 'aohallorana6@bloglines.com', to_date('1953-06-06', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100367, 'Lowe Kerss', 'lkerssa7@altervista.org', to_date('1950-10-15', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100368, 'Jillene Mapstone', 'jmapstonea8@istockphoto.com', to_date('1979-11-02', 'YYYY-MM-DD'), 'Gynecology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100369, 'Olly Cammell', 'ocammella9@goodreads.com', to_date('1956-12-01', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100370, 'Jory Cabrera', 'jcabreraaa@imgur.com', to_date('1994-05-24', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100371, 'Michele Guinery', 'mguineryab@columbia.edu', to_date('1967-12-04', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100372, 'Chickie Vanyashkin', 'cvanyashkinac@house.gov', to_date('1988-07-22', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100373, 'Clayborne Trusslove', 'ctrusslovead@nsw.gov.au', to_date('1974-05-11', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100374, 'Rena Pleass', 'rpleassae@quantcast.com', to_date('1978-10-18', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100375, 'Jordon Pilcher', 'jpilcheraf@chicagotribune.com', to_date('1948-10-28', 'YYYY-MM-DD'), 'Nephrology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100376, 'Koren Valiant', 'kvaliantag@joomla.org', to_date('1965-09-04', 'YYYY-MM-DD'), 'Internal Medicine');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100377, 'Alyson Lindup', 'alindupah@friendfeed.com', to_date('1988-10-14', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100378, 'Rafa Fordy', 'rfordyai@berkeley.edu', to_date('1986-11-07', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100379, 'Dannie Hufton', 'dhuftonaj@patch.com', to_date('1961-07-22', 'YYYY-MM-DD'), 'Psychiatry');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100380, 'Antone Clemot', 'aclemotak@myspace.com', to_date('1986-03-26', 'YYYY-MM-DD'), 'Surgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100381, 'Anni Fontaine', 'afontaineal@i2i.jp', to_date('1962-06-05', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100382, 'Arne Albon', 'aalbonam@godaddy.com', to_date('1983-01-19', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100383, 'Rene Malshinger', 'rmalshingeran@liveinternet.ru', to_date('1964-02-13', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100384, 'Romain Beecham', 'rbeechamao@answers.com', to_date('1993-01-21', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100385, 'Lorne Humberstone', 'lhumberstoneap@wired.com', to_date('1992-04-10', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100386, 'Giff Milton-White', 'gmiltonwhiteaq@t.co', to_date('1981-07-05', 'YYYY-MM-DD'), 'Orthopedics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100387, 'Eryn Couldwell', 'ecouldwellar@miitbeian.gov.cn', to_date('1976-01-07', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100388, 'Vickie Devin', 'vdevinas@virginia.edu', to_date('1964-10-13', 'YYYY-MM-DD'), 'Dermatology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100389, 'Francene McLaggan', 'fmclagganat@twitpic.com', to_date('1972-07-07', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100390, 'Everard Tilston', 'etilstonau@kickstarter.com', to_date('1972-03-12', 'YYYY-MM-DD'), 'Pulmonology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100391, 'Sheila Wiskar', 'swiskarav@xrea.com', to_date('1962-01-10', 'YYYY-MM-DD'), 'Cardiology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100392, 'Andra McQuarrie', 'amcquarrieaw@canalblog.com', to_date('1993-10-08', 'YYYY-MM-DD'), 'Endocrinology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100393, 'Laurent Ducker', 'lduckerax@seesaa.net', to_date('1963-07-23', 'YYYY-MM-DD'), 'Ophthalmology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100394, 'Ruthie Challenger', 'rchallengeray@omniture.com', to_date('1956-12-25', 'YYYY-MM-DD'), 'Otorhinolaryngology');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100395, 'Vanni Pay', 'vpayaz@google.com.br', to_date('1951-10-25', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100396, 'Herbert Avramow', 'havramowb0@nature.com', to_date('1980-08-17', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100397, 'Spike Salsberg', 'ssalsbergb1@deviantart.com', to_date('1970-02-06', 'YYYY-MM-DD'), 'Neurosurgery');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100398, 'Quentin Sansun', 'qsansunb2@huffingtonpost.com', to_date('1953-10-22', 'YYYY-MM-DD'), 'Pediatrics');
+
+insert into doctors ("DOCTOR_ID", "NAME", "CONTACT_INFORMATION", "DATE_OF_START_WORKING", "SPECIALTY")
+values (100399, 'Odelia Ingrey', 'oingreyb3@theguardian.com', to_date('1993-05-04', 'YYYY-MM-DD'), 'Oncology');
+
+commit;
+
