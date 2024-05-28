@@ -36,9 +36,7 @@ with open(file_paths["Appointment"], "w") as f:
         f.write(
             f"{appointment_id},{appointment_date},{reason_for_visit},{patient_id},{doctor_id}\n"
         )
-        # f.write(f"INSERT INTO Appointment (Appointment_ID, Appointment_Date, Reason_for_Visit, Patient_ID, Doctor_ID) "
-        #         f"VALUES ({appointment_id}, {appointment_date}, '{reason_for_visit}', {patient_id}, {doctor_id});\n")
-
+        
 # Generating SQL insert statements for Treatment table
 with open(file_paths["Treatment"], "w") as f:
     f.write("Treatment_ID,Treatment_Cost,Treatment_Name,Treatment_Description,Medical_Record_ID\n")
@@ -52,8 +50,6 @@ with open(file_paths["Treatment"], "w") as f:
         f.write(
             f"{treatment_id},{treatment_cost},{treatment_name},{treatment_description},{medical_record_id}\n"
         )
-        # f.write(f"INSERT INTO Treatment (Treatment_ID, Treatment_Cost, Treatment_Name, Treatment_Description, Medical_Record_ID) "
-        #         f"VALUES ({treatment_id}, {treatment_cost}, '{treatment_name}', '{treatment_description}', {medical_record_id});\n")
 
 # Generating SQL insert statements for MedicalRecord table
 with open(file_paths["MedicalRecord"], "w") as f:
@@ -69,11 +65,3 @@ with open(file_paths["MedicalRecord"], "w") as f:
         f.write(
             f"{medical_record_id},{diagnosis},{prescribed_treatments},{test_results},{allergies},{patient_id}\n"
         )
-        # f.write(f"INSERT INTO MedicalRecord (Medical_Record_ID, Diagnosis, Prescribed_Treatments, Test_Results, Allergies, Patient_ID) "
-        #         f"VALUES ({medical_record_id}, '{diagnosis}', '{prescribed_treatments}', '{test_results}', '{allergies}', {patient_id});\n")
-
-# Print success message
-# for table, file_path in file_paths.items():
-#     print(
-#         f"SQL script for {table} table generated successfully and saved to: {file_path}"
-#     )
