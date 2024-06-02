@@ -12,7 +12,7 @@
 ## Title Page
 
 **Project Title:** MiniProjectDB  
-**Contributors:** Noam Benisho, Yair Lasry
+**Contributors:** Noam Benisho 213200496, Yair Lasry 214085987
 **System:** Medical data management system  
 **Selected Unit:** Database unit
 
@@ -140,3 +140,5 @@ INSERT INTO Appointment (patient_id, doctor_id, appointment_date, reason) VALUES
 
 ## Restore
 
+![Restore](https://github.com/Yair345/MiniProjectDB/assets/116631739/fccd0fb7-335d-49a5-a6ed-c248d4c1d3a3)
+![image](https://github.com/Yair345/MiniProjectDB/assets/116631739/ae4febd0-f77c-4a89-9ab8-4c5bb622c02b)
