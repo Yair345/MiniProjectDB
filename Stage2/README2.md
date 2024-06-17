@@ -90,11 +90,13 @@
 
 מטרת השאילתא היא למחוק את כל הטיפולים והחיובים עבור רשומות רפואיות שהן מלפני יותר מ-5 שנים.
 
-**Before Delete**
+**Before Delete:**
+
 ![Treatment_before](https://github.com/Yair345/MiniProjectDB/assets/116631739/bc2ccc3e-a160-4593-be83-00ec1fd92693)
 
 
-**After Delete**
+**After Delete:**
+
 ![noPara_delete_1](https://github.com/Yair345/MiniProjectDB/assets/116631739/d6b88b5c-d2b4-4a35-af34-e0df3c9ead1b)
 
 
@@ -102,11 +104,13 @@
 
 מטרת השאילתא היא למחוק את כל התורים עבור מטופלים שלא היו להם תורים בשנה האחרונה וגם יש להם חיובים לא משולמים.
 
-**Before Delete**
+**Before Delete:**
+
 ![Appointment_before](https://github.com/Yair345/MiniProjectDB/assets/116631739/ec4999b7-3768-458d-a1f0-65f66f0e6886)
 
 
-**After Delete**
+**After Delete:**
+
 ![noPara_delete_2](https://github.com/Yair345/MiniProjectDB/assets/116631739/4bd45634-6fc2-4a69-9182-0d3a63213c20)
 
 
@@ -116,11 +120,13 @@
 
 מטרת השאילתא היא להגדיל את עלות הטיפול ב-20% עבור טיפולים שבוצעו על ידי רופאים עם יותר מ-40 שנות נסיון.
 
-**Before Update**
+**Before Update:**
+
 ![Treatment_before](https://github.com/Yair345/MiniProjectDB/assets/116631739/134002a3-ad39-4cd2-a7dd-50fa96d34969)
 
 
-**After Update**
+**After Update:**
+
 ![noPara_update_1](https://github.com/Yair345/MiniProjectDB/assets/116631739/95080988-0f2d-4ec7-ba4d-1c7061a20912)
 
 
@@ -128,11 +134,13 @@
 
 מטרת השאילתא היא לעדכן את פרטי ההתקשרות של מטופלים שהיו אצל יותר מ-3 רופאים שונים.
 
-**Before Update**
+**Before Update:**
+
 ![Patients_before](https://github.com/Yair345/MiniProjectDB/assets/116631739/83bba65f-09d7-49c6-97ce-648e5a8bb351)
 
 
-**After Update**
+**After Update:**
+
 ![noPara_update_2](https://github.com/Yair345/MiniProjectDB/assets/116631739/7b643bfb-6f1f-46f7-969a-cfef4b970e47)
 
 
