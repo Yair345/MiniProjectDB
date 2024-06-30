@@ -1,7 +1,7 @@
 # Hospital Management System - SQL Procedures and Functions
 
 This README provides an overview of the SQL procedures and functions implemented for a Hospital Management System. Each component is described, along with its code and proof of execution.
-
+ 
 ## 1. get_total_billed
 
 ### Description
