@@ -105,6 +105,7 @@ FROM
     LEFT JOIN Treatment t ON mr.Medical_Record_ID = t.Medical_Record_ID
     LEFT JOIN Billing b ON p.Patient_ID = b.Patient_ID AND t.Treatment_ID = b.Treatment_ID;
 ```
+![image](https://github.com/user-attachments/assets/a187095d-76ca-4471-897b-e773d847a6fd)
 
 ### שאילתות על המבט
 #### שאילה 1
@@ -177,6 +178,7 @@ FROM
     LEFT JOIN Doctor d ON rd.Doctor_ID = d.Doctor_ID
     LEFT JOIN Publication pub ON r.Research_ID = pub.Research_ID;
 ```
+![image](https://github.com/user-attachments/assets/6b5db9e1-f612-48db-9a6f-d6417edeabc7)
 
 #### שליפת נתונים מהמבט (10 רשומות)
 
