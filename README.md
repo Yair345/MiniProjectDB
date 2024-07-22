@@ -3,10 +3,12 @@
 ## תרשימי DSD ו-ERD
 
 ### תרשים DSD
-[הוסף כאן תמונת מסך של תרשים ה-DSD]
+![image](https://github.com/user-attachments/assets/301b593a-fe16-418a-97e5-4195f9d03ea5)
+
 
 ### תרשים ERD
-[הוסף כאן תמונת מסך של תרשים ה-ERD]
+![image](https://github.com/user-attachments/assets/0cdeb5de-bb14-4318-a7e6-5362ab64026e)
+
 
 ## החלטות שנעשו בשלב האינטגרציה
 
@@ -136,7 +138,8 @@ FROM EmergencyDepartmentView
 WHERE Appointment_Date >= ADD_MONTHS(SYSDATE, -1)
 ORDER BY Appointment_Date;
 ```
-[הוסף כאן תמונת מסך של תוצאות השאילתא]
+![WhatsApp Image 2024-07-22 at 18 17 06_08ed9aa5](https://github.com/user-attachments/assets/f9ea6782-3ecc-4776-859d-e340f05a204f)
+
 
 
 ### מבט 2 - ResearchDepartmentView
@@ -179,10 +182,9 @@ FROM
 
 ```sql
 SELECT * FROM ResearchDepartmentView
-LIMIT 10;
 ```
 
-[הוסף כאן תמונת מסך של תוצאות השאילתא]
+![WhatsApp Image 2024-07-22 at 18 20 17_67ed9c59](https://github.com/user-attachments/assets/27dce860-5f3c-453d-b0f3-db3dc7baeff6)
 
 
 ### שאילתא 1 על מבט ResearchDepartmentView
@@ -198,7 +200,8 @@ GROUP BY Research_ID, Research_Name
 ORDER BY Patient_Count DESC, Doctor_Count DESC;
 ```
 
-[הוסף כאן תמונת מסך של תוצאות השאילתא]
+![WhatsApp Image 2024-07-22 at 18 21 52_ab08b760](https://github.com/user-attachments/assets/5043ed28-8381-4d42-8bf3-61fc6c2e759d)
+
 
 
 ### שאילתא 2 על מבט ResearchDepartmentView
@@ -216,7 +219,8 @@ GROUP BY Research_ID, Research_Name, Measurement_Type
 ORDER BY Research_Name, Measurement_Type;
 ```
 
-[הוסף כאן תמונת מסך של תוצאות השאילתא]
+![WhatsApp Image 2024-07-22 at 18 22 51_eb1f60bb](https://github.com/user-attachments/assets/644f2fe0-ed9e-42c6-9ada-eebff73b4727)
+
 
 
 ## סיכום
