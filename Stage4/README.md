@@ -76,7 +76,7 @@ WHERE Contact_Information IS NULL OR Insurance IS NULL;
 
 ### קוד המבט
 ```sql
-CREATE VIEW EmergencyDepartmentView AS
+CREATE or replace VIEW EmergencyDepartmentView AS
 SELECT 
     p.Patient_ID,
     p.Name AS Patient_Name,
@@ -95,9 +95,9 @@ SELECT
     b.Total_Cost,
     b.Payment_Status
 FROM 
-    Patient p
+    Patients1 p
     LEFT JOIN Appointment a ON p.Patient_ID = a.Patient_ID
-    LEFT JOIN Doctor d ON a.Doctor_ID = d.Doctor_ID
+    LEFT JOIN Doctors1 d ON a.Doctor_ID = d.Doctor_ID
     LEFT JOIN MedicalRecord mr ON p.Patient_ID = mr.Patient_ID
     LEFT JOIN Treatment t ON mr.Medical_Record_ID = t.Medical_Record_ID
     LEFT JOIN Billing b ON p.Patient_ID = b.Patient_ID AND t.Treatment_ID = b.Treatment_ID;
@@ -147,32 +147,32 @@ ORDER BY Appointment_Date;
 
 
 ```sql
-CREATE VIEW ResearchDepartmentView AS
+CREATE or replace VIEW ResearchDepartmentView AS
 SELECT 
     r.Research_ID,
     r.Research_Name,
     r.Budget,
     r.R_Start AS Research_Start_Date,
     p.Patient_ID,
-    p.FirstName || ' ' || p.LastName AS Patient_Name,
-    p.Sex,
-    p.DateOfBirth,
+    p.name AS Patient_Name,
+    p.gender,
+    p.Date_Of_Birth,
     m.Measurement_ID,
     m.M_Date AS Measurement_Date,
     m.M_Type AS Measurement_Type,
     m.M_Value AS Measurement_Value,
     d.Doctor_ID,
-    d.FirstName || ' ' || d.LastName AS Doctor_Name,
-    d.Specialization,
+    d.name AS Doctor_Name,
+    d.Specialty,
     pub.Publication_ID,
     pub.P_Date AS Publication_Date,
     pub.Magazin
 FROM 
     Research r
-    LEFT JOIN Patient p ON r.Research_ID = p.Research_ID
+    LEFT JOIN Patients1 p ON r.Research_ID = p.Research_ID
     LEFT JOIN Measurement m ON p.Patient_ID = m.Patient_ID
     LEFT JOIN Research_Doctor rd ON r.Research_ID = rd.Research_ID
-    LEFT JOIN Doctor d ON rd.Doctor_ID = d.Doctor_ID
+    LEFT JOIN Doctors1 d ON rd.Doctor_ID = d.Doctor_ID
     LEFT JOIN Publication pub ON r.Research_ID = pub.Research_ID;
 ```
 ![image](https://github.com/user-attachments/assets/6b5db9e1-f612-48db-9a6f-d6417edeabc7)
