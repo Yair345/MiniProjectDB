@@ -25,8 +25,8 @@
    - הוספנו טבלאות חדשות: Research, Measurement, Publication, Medicines, Research_Doctor, ו-Research_Medicines.
 
 4. **טיפול בשדות חסרים:**
-   - הגדרנו ערכי ברירת מחדל לשדות חסרים כמו Contact_Information ו-Insurance בטבלת Patients1.
-   - הגדרנו ערכי ברירת מחדל לשדות חסרים כמו Contact_Information ו-Date_of_Start_working בטבלת Doctors1.
+   - הגדרנו שדות שהיו חסרים בטבלה Patient כמו Contact_Information ו-Insurance כNullable בטבלת Patients1.
+   - הגדרנו שדות חסרים בטבלה Doctor כמו Contact_Information ו-Date_of_Start_working כNullable בטבלת Doctors1.
 
 ## הסבר מילולי של התהליך והפקודות
 
